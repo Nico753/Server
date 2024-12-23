@@ -1,6 +1,4 @@
 {
-  "Users": [
-    {
       "id": "53b8",
       "username": "Admin",
       "email": "admin@gmail.com",
@@ -18,5 +16,4 @@
       "city": "eawr",
       "address": "awer"
     }
-  ]
 }
