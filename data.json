@@ -1,0 +1,22 @@
+{
+  "Users": [
+    {
+      "id": "53b8",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "country": "Italia",
+      "city": "Barge",
+      "address": "Molini 3"
+    },
+    {
+      "id": "d615",
+      "username": "Italia",
+      "email": "dominici@gmail.com",
+      "password": "awer",
+      "country": "Italia",
+      "city": "eawr",
+      "address": "awer"
+    }
+  ]
+}
