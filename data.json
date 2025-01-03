@@ -9,33 +9,6 @@
       "city": "Barge",
       "address": "Molini 3",
       "shoppingCart": [
-        {
-          "id": "P6",
-          "name": "Attack Titan Sweater Black",
-          "price": "120.00",
-          "picture": [
-            "../img/Prodotti/P6/thumbnails1.webp",
-            "../img/Prodotti/P6/thumbnails2.webp",
-            "../img/Prodotti/P6/thumbnails3.webp",
-            "../img/Prodotti/P6/thumbnails4.webp",
-            "../img/Prodotti/P6/thumbnails5.webp",
-            "../img/Prodotti/P6/thumbnails6.webp"
-          ],
-          "size": "XLLarge"
-        },
-        {
-          "id": "P5",
-          "name": "Black Ops Easy Cargo Pants",
-          "price": "110.00",
-          "picture": [
-            "../img/Prodotti/P5/thumbnails1.webp",
-            "../img/Prodotti/P5/thumbnails2.webp",
-            "../img/Prodotti/P5/thumbnails3.webp",
-            "../img/Prodotti/P5/thumbnails4.webp",
-            "../img/Prodotti/P5/thumbnails5.webp"
-          ],
-          "size": "Large"
-        }
       ]
     },
     {
