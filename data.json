@@ -26,7 +26,7 @@
       "id": "P1",
       "bestSeller": "true",
       "name": "Blur Hockey Crewneck Forest",
-      "type": "felpa",
+      "type": "FELPA",
       "price": "140.00",
       "salePrice": "0",
       "picture": [
@@ -50,7 +50,7 @@
       "id": "P2",
       "bestSeller": "true",
       "name": "Prestige Master Bomber Forest",
-      "type": "giacca",
+      "type": "GIACCA",
       "price": "250.00",
       "salePrice": "200.00",
       "picture": [
@@ -95,7 +95,7 @@
       "id": "P4",
       "bestSeller": "false",
       "name": "Tomioka Giyu Tee White",
-      "type": "t-shirt",
+      "type": "MAGLIA",
       "price": "55.00",
       "salePrice": "0",
       "picture": [
@@ -117,7 +117,7 @@
       "id": "P5",
       "bestSeller": "false",
       "name": "Black Ops Easy Cargo Pants",
-      "type": "pantalone",
+      "type": "PANTALONE",
       "price": "110.00",
       "salePrice": "89.99",
       "picture": [
@@ -140,7 +140,7 @@
       "id": "P6",
       "bestSeller": "true",
       "name": "Attack Titan Sweater Black",
-      "type": "felpa",
+      "type": "FELPA",
       "price": "120.00",
       "salePrice": "85.99",
       "picture": [
@@ -164,7 +164,7 @@
       "id": "P7",
       "bestSeller": "true",
       "name": "Dragon Knot LT Shell Jacket",
-      "type": "giacca",
+      "type": "GIACCA",
       "price": "165.00",
       "salePrice": "0",
       "picture": [
