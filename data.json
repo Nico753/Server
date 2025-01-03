@@ -1,0 +1,214 @@
+{
+  "Users": [
+    {
+      "id": "53b8",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "country": "Italia",
+      "city": "Barge",
+      "address": "Molini 3",
+      "shoppingCart": [
+        {
+          "id": "P6",
+          "name": "Attack Titan Sweater Black",
+          "price": "120.00",
+          "picture": [
+            "../img/Prodotti/P6/thumbnails1.webp",
+            "../img/Prodotti/P6/thumbnails2.webp",
+            "../img/Prodotti/P6/thumbnails3.webp",
+            "../img/Prodotti/P6/thumbnails4.webp",
+            "../img/Prodotti/P6/thumbnails5.webp",
+            "../img/Prodotti/P6/thumbnails6.webp"
+          ],
+          "size": "XLLarge"
+        },
+        {
+          "id": "P5",
+          "name": "Black Ops Easy Cargo Pants",
+          "price": "110.00",
+          "picture": [
+            "../img/Prodotti/P5/thumbnails1.webp",
+            "../img/Prodotti/P5/thumbnails2.webp",
+            "../img/Prodotti/P5/thumbnails3.webp",
+            "../img/Prodotti/P5/thumbnails4.webp",
+            "../img/Prodotti/P5/thumbnails5.webp"
+          ],
+          "size": "Large"
+        }
+      ]
+    },
+    {
+      "username": "Nicolas",
+      "email": "nicolasdominici123@gmail.com",
+      "password": "1234",
+      "country": "Italia",
+      "city": "Barge",
+      "address": "molini",
+      "shoppingCart": []
+    }
+  ],
+  "Shop": [
+    {
+      "id": "P1",
+      "bestSeller": "true",
+      "name": "Blur Hockey Crewneck Forest",
+      "type": "felpa",
+      "price": "140.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P1/thumbnails1.webp",
+        "../img/Prodotti/P1/thumbnails2.webp",
+        "../img/Prodotti/P1/thumbnails3.webp",
+        "../img/Prodotti/P1/thumbnails4.webp",
+        "../img/Prodotti/P1/thumbnails5.webp",
+        "../img/Prodotti/P1/thumbnails6.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "true",
+        "true",
+        "false"
+      ],
+      "details": "Con il GOAT dello streaming italiano al nostro fianco, la linea GOAT si ingrandisce.<br><br>Autunno / Inverno<br><br>• Toppe ricamate davanti e dietro<br>• Ricami sulle spalle<br>• Stampa transfer sul polso<br>• Etichetta GOAT<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>• Tessuto corpo: 70% cotone 30% poliestere<br>• Tessuto degli inserti: 100% rete di poliestere<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P2",
+      "bestSeller": "true",
+      "name": "Prestige Master Bomber Forest",
+      "type": "giacca",
+      "price": "250.00",
+      "salePrice": "200.00",
+      "picture": [
+        "../img/Prodotti/P2/thumbnails1.webp",
+        "../img/Prodotti/P2/thumbnails2.webp",
+        "../img/Prodotti/P2/thumbnails3.webp",
+        "../img/Prodotti/P2/thumbnails4.webp",
+        "../img/Prodotti/P2/thumbnails5.webp",
+        "../img/Prodotti/P2/thumbnails6.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "Ricordi i Prestige? È arrivato il tuo momento, bastardo nostalgico. Diventa il Maestro.<br><br>Autunno / Inverno<br><br>• Reversibile<br>• Stampa riflettente, strisce di nylon con stampa 3D sul lato 1<br>• Stampa 3D in gomma, serigrafia e tasca frontale sul lato 2<br><br>Vestibilità regolare<br><br>• Tessuto del guscio: 100% poliestere<br>• Fodera: 100% poliestere<br>• Imbottitura: 100% poliestere<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P3",
+      "bestSeller": "true",
+      "name": "Blur King pattern shirt beige",
+      "type": "camicia",
+      "price": "90.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P3/thumbnails1.webp",
+        "../img/Prodotti/P3/thumbnails2.webp",
+        "../img/Prodotti/P3/thumbnails3.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "Il caldo messicano ha ispirato Blur e noi a creare il perfetto outfit estivo.<br> Abbinatelo ai pantaloncini da bagno: la festa in piscina non sarà più la stessa.<br><br>• 4 ways stretch<br>• Trattamento W/R<br>• Stampa sublimata allover<br><br>Vestibilità regolare<br><br>95% poliestere 5% elastan<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P4",
+      "bestSeller": "false",
+      "name": "Tomioka Giyu Tee White",
+      "type": "t-shirt",
+      "price": "55.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P4/thumbnails1.webp",
+        "../img/Prodotti/P4/thumbnails2.webp",
+        "../img/Prodotti/P4/thumbnails3.webp",
+        "../img/Prodotti/P4/thumbnails4.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "Tra i nove pilastri, Giyu si distingue per dire meno e uccidere di più.<br><br>• Ricamo frontale<br>• Stampa serigrafica<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P5",
+      "bestSeller": "false",
+      "name": "Black Ops Easy Cargo Pants",
+      "type": "pantalone",
+      "price": "110.00",
+      "salePrice": "89.99",
+      "picture": [
+        "../img/Prodotti/P5/thumbnails1.webp",
+        "../img/Prodotti/P5/thumbnails2.webp",
+        "../img/Prodotti/P5/thumbnails3.webp",
+        "../img/Prodotti/P5/thumbnails4.webp",
+        "../img/Prodotti/P5/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "true",
+        "false",
+        "false"
+      ],
+      "details": "Questi pantaloni Black Ops non ti renderanno un professionista, ma ti faranno sembrare tale.<br><br>• Stampa a trasferimento<br>• Etichetta tessuta<br><br>Vestibilità regolare<br><br>100% cotone antistrappo<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P6",
+      "bestSeller": "true",
+      "name": "Attack Titan Sweater Black",
+      "type": "felpa",
+      "price": "120.00",
+      "salePrice": "85.99",
+      "picture": [
+        "../img/Prodotti/P6/thumbnails1.webp",
+        "../img/Prodotti/P6/thumbnails2.webp",
+        "../img/Prodotti/P6/thumbnails3.webp",
+        "../img/Prodotti/P6/thumbnails4.webp",
+        "../img/Prodotti/P6/thumbnails5.webp",
+        "../img/Prodotti/P6/thumbnails6.webp"
+      ],
+      "size": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "true"
+      ],
+      "details": "La libertà è qualcosa per cui devi lottare, piuttosto che qualcosa che ti viene dato. L'Attack Titan incarna quella lotta per la liberazione.<br><br>Autunno/Inverno<br><br>• Disegno jacquard<br><br>Vestibilità regolare<br><br>100% Dralon<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P7",
+      "bestSeller": "true",
+      "name": "Dragon Knot LT Shell Jacket",
+      "type": "giacca",
+      "price": "165.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P7/thumbnails1.webp",
+        "../img/Prodotti/P7/thumbnails2.webp",
+        "../img/Prodotti/P7/thumbnails3.webp",
+        "../img/Prodotti/P7/thumbnails4.webp",
+        "../img/Prodotti/P7/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "true",
+        "false",
+        "true"
+      ],
+      "details": "Senza inizio né fine, il nodo celtico simboleggia l’interconnessione di tutte le cose,<br> intrecciando passato, presente e futuro.<br> Un emblema senza tempo di patrimonio, unità ed eternità.<br><br>Autunno/Inverno<br><br>• Strisce di nylon<br>• Patch metallica spazzolata sul davanti<br>• Pulsanti con logo<br>• Fodera stampa digitale all-over<br>• Serigrafia sul retro<br><br>Vestibilità regolare<br><br>Tessuto esterno: tela di cotone 100%.<br>Tessuto della fodera: 100% poliestere<br><br>Lavaggio a 30°"
+    }
+  ]
+}
