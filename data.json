@@ -9,6 +9,120 @@
       "city": "Barge",
       "address": "Molini 3",
       "shoppingCart": [
+        {
+          "id": "P2",
+          "type": "giacca",
+          "name": "Prestige Master Bomber Forest",
+          "price": "200.00",
+          "picture": [
+            "../img/Prodotti/P2/thumbnails1.webp",
+            "../img/Prodotti/P2/thumbnails2.webp",
+            "../img/Prodotti/P2/thumbnails3.webp",
+            "../img/Prodotti/P2/thumbnails4.webp",
+            "../img/Prodotti/P2/thumbnails5.webp",
+            "../img/Prodotti/P2/thumbnails6.webp"
+          ],
+          "size": "XLLarge"
+        },
+        {
+          "id": "P2",
+          "type": "giacca",
+          "name": "Prestige Master Bomber Forest",
+          "price": "200.00",
+          "picture": [
+            "../img/Prodotti/P2/thumbnails1.webp",
+            "../img/Prodotti/P2/thumbnails2.webp",
+            "../img/Prodotti/P2/thumbnails3.webp",
+            "../img/Prodotti/P2/thumbnails4.webp",
+            "../img/Prodotti/P2/thumbnails5.webp",
+            "../img/Prodotti/P2/thumbnails6.webp"
+          ],
+          "size": "XLLarge"
+        },
+        {
+          "id": "P2",
+          "type": "giacca",
+          "name": "Prestige Master Bomber Forest",
+          "price": "200.00",
+          "picture": [
+            "../img/Prodotti/P2/thumbnails1.webp",
+            "../img/Prodotti/P2/thumbnails2.webp",
+            "../img/Prodotti/P2/thumbnails3.webp",
+            "../img/Prodotti/P2/thumbnails4.webp",
+            "../img/Prodotti/P2/thumbnails5.webp",
+            "../img/Prodotti/P2/thumbnails6.webp"
+          ],
+          "size": "XLLarge"
+        },
+        {
+          "id": "P3",
+          "type": "camicia",
+          "name": "Blur King pattern shirt beige",
+          "price": "90.00",
+          "picture": [
+            "../img/Prodotti/P3/thumbnails1.webp",
+            "../img/Prodotti/P3/thumbnails2.webp",
+            "../img/Prodotti/P3/thumbnails3.webp"
+          ],
+          "size": "Medim"
+        },
+        {
+          "id": "P3",
+          "type": "camicia",
+          "name": "Blur King pattern shirt beige",
+          "price": "90.00",
+          "picture": [
+            "../img/Prodotti/P3/thumbnails1.webp",
+            "../img/Prodotti/P3/thumbnails2.webp",
+            "../img/Prodotti/P3/thumbnails3.webp"
+          ],
+          "size": "Medim"
+        },
+        {
+          "id": "P1",
+          "type": "felpa",
+          "name": "Blur Hockey Crewneck Forest",
+          "price": "140.00",
+          "picture": [
+            "../img/Prodotti/P1/thumbnails1.webp",
+            "../img/Prodotti/P1/thumbnails2.webp",
+            "../img/Prodotti/P1/thumbnails3.webp",
+            "../img/Prodotti/P1/thumbnails4.webp",
+            "../img/Prodotti/P1/thumbnails5.webp",
+            "../img/Prodotti/P1/thumbnails6.webp"
+          ],
+          "size": "Small"
+        },
+        {
+          "id": "P1",
+          "type": "felpa",
+          "name": "Blur Hockey Crewneck Forest",
+          "price": "140.00",
+          "picture": [
+            "../img/Prodotti/P1/thumbnails1.webp",
+            "../img/Prodotti/P1/thumbnails2.webp",
+            "../img/Prodotti/P1/thumbnails3.webp",
+            "../img/Prodotti/P1/thumbnails4.webp",
+            "../img/Prodotti/P1/thumbnails5.webp",
+            "../img/Prodotti/P1/thumbnails6.webp"
+          ],
+          "size": "Small"
+        },
+        {
+          "id": "P1",
+          "type": "felpa",
+          "name": "Blur Hockey Crewneck Forest",
+          "price": "140.00",
+          "picture": [
+            "../img/Prodotti/P1/thumbnails1.webp",
+            "../img/Prodotti/P1/thumbnails2.webp",
+            "../img/Prodotti/P1/thumbnails3.webp",
+            "../img/Prodotti/P1/thumbnails4.webp",
+            "../img/Prodotti/P1/thumbnails5.webp",
+            "../img/Prodotti/P1/thumbnails6.webp"
+          ],
+          "size": "Small"
+        }
       ]
     },
     {
@@ -19,6 +133,31 @@
       "city": "Barge",
       "address": "molini",
       "shoppingCart": []
+    },
+    {
+      "username": "prova",
+      "email": "dominici@gmail.com",
+      "password": "ciao",
+      "country": "Brazil",
+      "city": "Barge",
+      "address": "molini",
+      "shoppingCart": [
+        {
+          "id": "P1",
+          "type": "felpa",
+          "name": "Blur Hockey Crewneck Forest",
+          "price": "140.00",
+          "picture": [
+            "../img/Prodotti/P1/thumbnails1.webp",
+            "../img/Prodotti/P1/thumbnails2.webp",
+            "../img/Prodotti/P1/thumbnails3.webp",
+            "../img/Prodotti/P1/thumbnails4.webp",
+            "../img/Prodotti/P1/thumbnails5.webp",
+            "../img/Prodotti/P1/thumbnails6.webp"
+          ],
+          "size": "Small"
+        }
+      ]
     }
   ],
   "Shop": [
@@ -26,7 +165,7 @@
       "id": "P1",
       "bestSeller": "true",
       "name": "Blur Hockey Crewneck Forest",
-      "type": "FELPA",
+      "type": "felpa",
       "price": "140.00",
       "salePrice": "0",
       "picture": [
@@ -50,7 +189,7 @@
       "id": "P2",
       "bestSeller": "true",
       "name": "Prestige Master Bomber Forest",
-      "type": "GIACCA",
+      "type": "giacca",
       "price": "250.00",
       "salePrice": "200.00",
       "picture": [
@@ -95,7 +234,7 @@
       "id": "P4",
       "bestSeller": "false",
       "name": "Tomioka Giyu Tee White",
-      "type": "MAGLIA",
+      "type": "t-shirt",
       "price": "55.00",
       "salePrice": "0",
       "picture": [
@@ -117,7 +256,7 @@
       "id": "P5",
       "bestSeller": "false",
       "name": "Black Ops Easy Cargo Pants",
-      "type": "PANTALONE",
+      "type": "pantalone",
       "price": "110.00",
       "salePrice": "89.99",
       "picture": [
@@ -140,7 +279,7 @@
       "id": "P6",
       "bestSeller": "true",
       "name": "Attack Titan Sweater Black",
-      "type": "FELPA",
+      "type": "felpa",
       "price": "120.00",
       "salePrice": "85.99",
       "picture": [
@@ -164,7 +303,7 @@
       "id": "P7",
       "bestSeller": "true",
       "name": "Dragon Knot LT Shell Jacket",
-      "type": "GIACCA",
+      "type": "giacca",
       "price": "165.00",
       "salePrice": "0",
       "picture": [
