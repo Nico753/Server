@@ -416,6 +416,73 @@
         "false"
       ],
       "details": "Giacca varsity satinata firmata DLYNR GOAT. Tagli attraenti, toppe ricamate e in tessuto spugna,<br> una buona dose di arroganza sportiva per il tuo outfit. <br> Primavera / Estate <br> • Toppa ricamata davanti e dietro <br> • Toppa effetto spugna sulla parte anteriore <br> • Tasche con zip <br> Vestibilità oversize <br> 100% Poliestere con finitura satinata <br> Lavaggio a 30°"
+    },
+    {
+      "id": "P12",
+      "bestSeller": "true",
+      "name": "Leshen Dark Chemical Hoodie",
+      "type": "felpa",
+      "price": "109.00",
+      "salePrice": "89.00",
+      "picture": [
+        "../img/Prodotti/P12/thumbnails1.webp",
+        "../img/Prodotti/P12/thumbnails2.webp",
+        "../img/Prodotti/P12/thumbnails3.webp",
+        "../img/Prodotti/P12/thumbnails4.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "false",
+        "true",
+        "true"
+      ],
+      "details": "Un omaggio al bosco, che rappresenta i colori e gli elementi della natura<br><br>Autunno / Inverno<br><br>• Stampa digitale alllover<br>• Etichetta frontale<br>• Dots coulisse<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P13",
+      "bestSeller": "false",
+      "name": "Logo Brew Label Zip Hoodie",
+      "type": "felpa",
+      "price": "115.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P13/thumbnails1.webp",
+        "../img/Prodotti/P13/thumbnails2.webp",
+        "../img/Prodotti/P13/thumbnails3.webp",
+        "../img/Prodotti/P13/thumbnails4.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "Brew Label Dolly Noire: Per quando la vostra birra deve essere in linea con il vostro outfit<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Jersey non garzato<br<br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P14",
+      "bestSeller": "true",
+      "name": "THE TRUTH LIES Hoodie Black",
+      "type": "felpa",
+      "price": "99.99",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P14/thumbnails1.webp",
+        "../img/Prodotti/P14/thumbnails2.webp",
+        "../img/Prodotti/P14/thumbnails3.webp",
+        "../img/Prodotti/P14/thumbnails4.webp",
+        "../img/Prodotti/P14/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "flase",
+        "false",
+        "true",
+        "true"
+      ],
+      "details": "A chi crederai?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica anteriore e posteriore<br>• Cuciture a contrasto<br>• Etichetta in tessuto<br>• Dotted coulisse<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>65% Cotone 35% Poliestere<br><br>Lavaggio a 30°"
     }
   ]
 }
