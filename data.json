@@ -321,6 +321,77 @@
         "true"
       ],
       "details": "Senza inizio né fine, il nodo celtico simboleggia l’interconnessione di tutte le cose,<br> intrecciando passato, presente e futuro.<br> Un emblema senza tempo di patrimonio, unità ed eternità.<br><br>Autunno/Inverno<br><br>• Strisce di nylon<br>• Patch metallica spazzolata sul davanti<br>• Pulsanti con logo<br>• Fodera stampa digitale all-over<br>• Serigrafia sul retro<br><br>Vestibilità regolare<br><br>Tessuto esterno: tela di cotone 100%.<br>Tessuto della fodera: 100% poliestere<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P8",
+      "bestSeller": "false",
+      "name": "Kamado Tanjiro Bomber",
+      "type": "giacca",
+      "price": "215.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P8/thumbnails1.webp",
+        "../img/Prodotti/P8/thumbnails2.webp",
+        "../img/Prodotti/P8/thumbnails3.webp",
+        "../img/Prodotti/P8/thumbnails4.webp",
+        "../img/Prodotti/P8/thumbnails5.webp",
+        "../img/Prodotti/P8/thumbnails6.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "L'haori a scacchi di Tanjiro è così iconico che potrebbe uccidere i demoni da solo.<br><br>• Reversibile<br>• Ricami sul lato 1<br>• Stampa digitale allover sul lato 2<br><br>Vestibilità regolare<br><br>Tessuto 100% poliestere, imbottitura 100% poliestere<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P9",
+      "bestSeller": "false",
+      "name": "Jhin Assassin's Gilet",
+      "type": "giacca",
+      "price": "150.00",
+      "salePrice": "99.99",
+      "picture": [
+        "../img/Prodotti/P9/thumbnails1.webp",
+        "../img/Prodotti/P9/thumbnails2.webp",
+        "../img/Prodotti/P9/thumbnails3.webp",
+        "../img/Prodotti/P9/thumbnails4.webp",
+        "../img/Prodotti/P9/thumbnails5.webp",
+        "../img/Prodotti/P8/thumbnails6.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "false",
+        "true",
+        "false"
+      ],
+      "details": "Indossate l'arte dell'assassinio con un completo ispirato a Jhin, dove ogni pezzo riecheggia la bellezza meticolosa delle sue performance oscure.<br><br>• Ricamo anteriore e posteriore<br>• Stampa plastisol anteriore e posteriore<br>• Stampa posteriore in pvc oro<br><br>Vestibilità regolare<br><br>Tessuto del corpo: 100% cotone gabardine<br>Tessuto della fodera: 100% Poliestere<br><br>Lavaggio a 30°"
+    },
+    {
+      "id": "P10",
+      "bestSeller": "false",
+      "name": "Racing Jacket Black",
+      "type": "giacca",
+      "price": "385.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P10/thumbnails1.webp",
+        "../img/Prodotti/P10/thumbnails2.webp",
+        "../img/Prodotti/P10/thumbnails3.webp",
+        "../img/Prodotti/P10/thumbnails4.webp",
+        "../img/Prodotti/P10/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "false",
+        "true",
+        "false"
+      ],
+      "details": "Giacca ispirata al mondo Nascar, arricchita da una miriade di toppe e ricami che richiamano l'universo delle corse.<br><br>Autunno / Inverno<br><br>• Piping reflective su colletto e spalle<br>• Patches ricamate su fronte, retro e spalle<br><br>Il prodotto veste regular<br><br>100% Canvas di cotone, fodera 100% Poliestere satinato<br><br>Lavaggio 30°"
     }
   ]
 }
