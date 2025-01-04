@@ -359,7 +359,7 @@
         "../img/Prodotti/P9/thumbnails3.webp",
         "../img/Prodotti/P9/thumbnails4.webp",
         "../img/Prodotti/P9/thumbnails5.webp",
-        "../img/Prodotti/P8/thumbnails6.webp"
+        "../img/Prodotti/P9/thumbnails6.webp"
       ],
       "size": [
         "true",
@@ -392,6 +392,30 @@
         "false"
       ],
       "details": "Giacca ispirata al mondo Nascar, arricchita da una miriade di toppe e ricami che richiamano l'universo delle corse.<br><br>Autunno / Inverno<br><br>• Piping reflective su colletto e spalle<br>• Patches ricamate su fronte, retro e spalle<br><br>Il prodotto veste regular<br><br>100% Canvas di cotone, fodera 100% Poliestere satinato<br><br>Lavaggio 30°"
+    },
+    {
+      "id": "P11",
+      "bestSeller": "true",
+      "name": "Billy GOAT Satin Jacket Navy",
+      "type": "giacca",
+      "price": "169.00",
+      "salePrice": "65.00",
+      "picture": [
+        "../img/Prodotti/P11/thumbnails1.webp",
+        "../img/Prodotti/P11/thumbnails2.webp",
+        "../img/Prodotti/P11/thumbnails3.webp",
+        "../img/Prodotti/P11/thumbnails4.webp",
+        "../img/Prodotti/P11/thumbnails5.webp",
+        "../img/Prodotti/P11/thumbnails6.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "false",
+        "true",
+        "false"
+      ],
+      "details": "Giacca varsity satinata firmata DLYNR GOAT. Tagli attraenti, toppe ricamate e in tessuto spugna,<br> una buona dose di arroganza sportiva per il tuo outfit. <br> Primavera / Estate <br> • Toppa ricamata davanti e dietro <br> • Toppa effetto spugna sulla parte anteriore <br> • Tasche con zip <br> Vestibilità oversize <br> 100% Poliestere con finitura satinata <br> Lavaggio a 30°"
     }
   ]
 }
