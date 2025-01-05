@@ -137,38 +137,29 @@ app.delete('/remove-cart', async (req, res) => {
 app.post('/checkout', async (req, res) => {
   const username = req.query.username; // Otteniamo lo username dai parametri di query
 
-  // Controllo se lo username è presente
   if (!username) {
     return res.status(400).json({ error: 'Lo username è obbligatorio' });
   }
 
   try {
-    // Leggi i dati dal file JSON
     const data = await fs.readFile(jsonFilePath, 'utf8');
     const currentData = JSON.parse(data);
 
-    // Trova l'utente con lo username fornito
     const user = currentData.Users.find(u => u.username === username);
 
     if (!user) {
       return res.status(404).json({ error: 'Utente non trovato' });
     }
 
-    // Controlla che ci siano prodotti nel carrello
     if (!user.shoppingCart || user.shoppingCart.length === 0) {
       return res.status(400).json({ error: 'Il carrello è vuoto' });
     }
 
-    // Assicurati che purchaseHistory sia inizializzato
     user.purchaseHistory = user.purchaseHistory || [];
-
-    // Aggiungi tutti i prodotti del carrello al purchaseHistory
     user.purchaseHistory.push(...user.shoppingCart);
 
-    // Svuota il carrello
     user.shoppingCart = [];
 
-    // Salva i dati aggiornati nel file JSON
     await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
 
     res.status(200).json({
@@ -176,12 +167,10 @@ app.post('/checkout', async (req, res) => {
       user,
     });
   } catch (err) {
-    res.status(500).json({
-      error: 'Errore durante il checkout',
-      details: err.message,
-    });
+    res.status(500).json({ error: 'Errore durante il checkout', details: err.message });
   }
 });
+
 
 // Avvia il server
 const PORT = process.env.PORT || 3000;
