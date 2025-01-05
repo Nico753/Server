@@ -164,6 +164,45 @@ app.delete('/clear-cart', async (req, res) => {
   }
 });
 
+// POST route: aggiungi un prodotto alla cronologia degli acquisti dell'utente
+app.post('/add-purchase', async (req, res) => {
+  const username = req.query.username; // Otteniamo lo username dai parametri di query
+  const { product } = req.body;        // Otteniamo il prodotto da aggiungere alla cronologia degli acquisti
+
+  // Controllo se lo username è presente
+  if (!username) {
+    return res.status(400).json({ error: 'Lo username è obbligatorio' });
+  }
+
+  // Controllo che il prodotto sia presente
+  if (!product) {
+    return res.status(400).json({ error: 'Prodotto mancante nel corpo della richiesta' });
+  }
+
+  try {
+    // Leggi i dati dal file JSON
+    const data = await fs.readFile(jsonFilePath, 'utf8');
+    const currentData = JSON.parse(data);
+
+    // Trova l'utente con lo username fornito
+    const user = currentData.Users.find(u => u.username === username);
+
+    if (!user) {
+      return res.status(404).json({ error: 'Utente non trovato' });
+    }
+
+    // Aggiungi il prodotto alla cronologia degli acquisti dell'utente
+    user.purchaseHistory = user.purchaseHistory || []; // Se non esiste, inizializzalo come array vuoto
+    user.purchaseHistory.push(product);
+
+    // Scrivi i dati aggiornati nel file JSON
+    await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
+
+    res.status(200).json({ message: 'Prodotto aggiunto alla cronologia degli acquisti', user });
+  } catch (err) {
+    res.status(500).json({ error: 'Errore nell\'aggiungere il prodotto alla cronologia degli acquisti', details: err.message });
+  }
+});
 
 // Avvia il server
 const PORT = process.env.PORT || 3000;
