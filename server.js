@@ -164,19 +164,19 @@ app.delete('/clear-cart', async (req, res) => {
   }
 });
 
-// POST route: aggiungi un prodotto alla cronologia degli acquisti dell'utente
+// POST route: aggiungi un prodotto o più prodotti alla cronologia degli acquisti dell'utente
 app.post('/add-purchase', async (req, res) => {
   const username = req.query.username; // Otteniamo lo username dai parametri di query
-  const { product } = req.body;        // Otteniamo il prodotto da aggiungere alla cronologia degli acquisti
+  const { products } = req.body;       // Otteniamo l'array di prodotti da aggiungere alla cronologia degli acquisti
 
   // Controllo se lo username è presente
   if (!username) {
     return res.status(400).json({ error: 'Lo username è obbligatorio' });
   }
 
-  // Controllo che il prodotto sia presente
-  if (!product) {
-    return res.status(400).json({ error: 'Prodotto mancante nel corpo della richiesta' });
+  // Controllo che i prodotti siano presenti
+  if (!products || !Array.isArray(products) || products.length === 0) {
+    return res.status(400).json({ error: 'Prodotti mancanti o formato non valido' });
   }
 
   try {
@@ -191,18 +191,21 @@ app.post('/add-purchase', async (req, res) => {
       return res.status(404).json({ error: 'Utente non trovato' });
     }
 
-    // Aggiungi il prodotto alla cronologia degli acquisti dell'utente
-    user.purchaseHistory = user.purchaseHistory || []; // Se non esiste, inizializzalo come array vuoto
-    user.purchaseHistory.push(product);
+    // Inizializza la cronologia acquisti se non esiste
+    user.purchaseHistory = user.purchaseHistory || [];
+
+    // Aggiungi i prodotti alla cronologia degli acquisti dell'utente
+    user.purchaseHistory.push(...products); // Usa spread operator per aggiungere i prodotti
 
     // Scrivi i dati aggiornati nel file JSON
     await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
 
-    res.status(200).json({ message: 'Prodotto aggiunto alla cronologia degli acquisti', user });
+    res.status(200).json({ message: 'Prodotti aggiunti alla cronologia degli acquisti', user });
   } catch (err) {
-    res.status(500).json({ error: 'Errore nell\'aggiungere il prodotto alla cronologia degli acquisti', details: err.message });
+    res.status(500).json({ error: 'Errore nell\'aggiungere i prodotti alla cronologia degli acquisti', details: err.message });
   }
 });
+
 
 // Avvia il server
 const PORT = process.env.PORT || 3000;
