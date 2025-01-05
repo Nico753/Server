@@ -136,31 +136,34 @@ app.delete('/remove-cart', async (req, res) => {
 
 // DELETE route: svuota tutto il carrello di un utente
 app.delete('/clear-cart', async (req, res) => {
-  const username = req.query.username; // Otteniamo lo username dai parametri di query
-  // Controllo se lo username è presente
+  const username = req.query.username; // Otteniamo lo username dalla query
   if (!username) {
     return res.status(400).json({ error: 'Lo username è obbligatorio' });
   }
+
   try {
-    // Leggi i dati dal file JSON
     const data = await fs.readFile(jsonFilePath, 'utf8');
     const currentData = JSON.parse(data);
+
     // Trova l'utente con lo username fornito
     const user = currentData.Users.find(u => u.username === username);
+
     if (!user) {
       return res.status(404).json({ error: 'Utente non trovato' });
     }
+
     // Svuota il carrello dell'utente
     user.shoppingCart = [];
+
     // Scrivi i dati aggiornati nel file JSON
     await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
-    // Risposta con successo
+
     res.status(200).json({ message: 'Carrello svuotato con successo', user });
   } catch (err) {
-    console.error('Errore nello svuotare il carrello:', err); // Log dell'errore
-    res.status(500).json({ error: 'Errore nello svuotare il carrello', details: err.message });
+    res.status(500).json({ error: 'Errore nel svuotare il carrello', details: err.message });
   }
 });
+
 // Avvia il server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
