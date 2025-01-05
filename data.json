@@ -9,154 +9,9 @@
       "city": "Barge",
       "address": "Molini 3",
       "shoppingCart": [
-        {
-          "id": "P2",
-          "type": "giacca",
-          "name": "Prestige Master Bomber Forest",
-          "price": "200.00",
-          "picture": [
-            "../img/Prodotti/P2/thumbnails1.webp",
-            "../img/Prodotti/P2/thumbnails2.webp",
-            "../img/Prodotti/P2/thumbnails3.webp",
-            "../img/Prodotti/P2/thumbnails4.webp",
-            "../img/Prodotti/P2/thumbnails5.webp",
-            "../img/Prodotti/P2/thumbnails6.webp"
-          ],
-          "size": "XLLarge"
-        },
-        {
-          "id": "P2",
-          "type": "giacca",
-          "name": "Prestige Master Bomber Forest",
-          "price": "200.00",
-          "picture": [
-            "../img/Prodotti/P2/thumbnails1.webp",
-            "../img/Prodotti/P2/thumbnails2.webp",
-            "../img/Prodotti/P2/thumbnails3.webp",
-            "../img/Prodotti/P2/thumbnails4.webp",
-            "../img/Prodotti/P2/thumbnails5.webp",
-            "../img/Prodotti/P2/thumbnails6.webp"
-          ],
-          "size": "XLLarge"
-        },
-        {
-          "id": "P2",
-          "type": "giacca",
-          "name": "Prestige Master Bomber Forest",
-          "price": "200.00",
-          "picture": [
-            "../img/Prodotti/P2/thumbnails1.webp",
-            "../img/Prodotti/P2/thumbnails2.webp",
-            "../img/Prodotti/P2/thumbnails3.webp",
-            "../img/Prodotti/P2/thumbnails4.webp",
-            "../img/Prodotti/P2/thumbnails5.webp",
-            "../img/Prodotti/P2/thumbnails6.webp"
-          ],
-          "size": "XLLarge"
-        },
-        {
-          "id": "P3",
-          "type": "camicia",
-          "name": "Blur King pattern shirt beige",
-          "price": "90.00",
-          "picture": [
-            "../img/Prodotti/P3/thumbnails1.webp",
-            "../img/Prodotti/P3/thumbnails2.webp",
-            "../img/Prodotti/P3/thumbnails3.webp"
-          ],
-          "size": "Medim"
-        },
-        {
-          "id": "P3",
-          "type": "camicia",
-          "name": "Blur King pattern shirt beige",
-          "price": "90.00",
-          "picture": [
-            "../img/Prodotti/P3/thumbnails1.webp",
-            "../img/Prodotti/P3/thumbnails2.webp",
-            "../img/Prodotti/P3/thumbnails3.webp"
-          ],
-          "size": "Medim"
-        },
-        {
-          "id": "P1",
-          "type": "felpa",
-          "name": "Blur Hockey Crewneck Forest",
-          "price": "140.00",
-          "picture": [
-            "../img/Prodotti/P1/thumbnails1.webp",
-            "../img/Prodotti/P1/thumbnails2.webp",
-            "../img/Prodotti/P1/thumbnails3.webp",
-            "../img/Prodotti/P1/thumbnails4.webp",
-            "../img/Prodotti/P1/thumbnails5.webp",
-            "../img/Prodotti/P1/thumbnails6.webp"
-          ],
-          "size": "Small"
-        },
-        {
-          "id": "P1",
-          "type": "felpa",
-          "name": "Blur Hockey Crewneck Forest",
-          "price": "140.00",
-          "picture": [
-            "../img/Prodotti/P1/thumbnails1.webp",
-            "../img/Prodotti/P1/thumbnails2.webp",
-            "../img/Prodotti/P1/thumbnails3.webp",
-            "../img/Prodotti/P1/thumbnails4.webp",
-            "../img/Prodotti/P1/thumbnails5.webp",
-            "../img/Prodotti/P1/thumbnails6.webp"
-          ],
-          "size": "Small"
-        },
-        {
-          "id": "P1",
-          "type": "felpa",
-          "name": "Blur Hockey Crewneck Forest",
-          "price": "140.00",
-          "picture": [
-            "../img/Prodotti/P1/thumbnails1.webp",
-            "../img/Prodotti/P1/thumbnails2.webp",
-            "../img/Prodotti/P1/thumbnails3.webp",
-            "../img/Prodotti/P1/thumbnails4.webp",
-            "../img/Prodotti/P1/thumbnails5.webp",
-            "../img/Prodotti/P1/thumbnails6.webp"
-          ],
-          "size": "Small"
-        }
-      ]
-    },
-    {
-      "username": "Nicolas",
-      "email": "nicolasdominici123@gmail.com",
-      "password": "1234",
-      "country": "Italia",
-      "city": "Barge",
-      "address": "molini",
-      "shoppingCart": []
-    },
-    {
-      "username": "prova",
-      "email": "dominici@gmail.com",
-      "password": "ciao",
-      "country": "Brazil",
-      "city": "Barge",
-      "address": "molini",
-      "shoppingCart": [
-        {
-          "id": "P1",
-          "type": "felpa",
-          "name": "Blur Hockey Crewneck Forest",
-          "price": "140.00",
-          "picture": [
-            "../img/Prodotti/P1/thumbnails1.webp",
-            "../img/Prodotti/P1/thumbnails2.webp",
-            "../img/Prodotti/P1/thumbnails3.webp",
-            "../img/Prodotti/P1/thumbnails4.webp",
-            "../img/Prodotti/P1/thumbnails5.webp",
-            "../img/Prodotti/P1/thumbnails6.webp"
-          ],
-          "size": "Small"
-        }
+      ],
+      "purchaseHistory":[
+
       ]
     }
   ],
@@ -415,7 +270,7 @@
         "true",
         "false"
       ],
-      "details": "Giacca varsity satinata firmata DLYNR GOAT. Tagli attraenti, toppe ricamate e in tessuto spugna,<br> una buona dose di arroganza sportiva per il tuo outfit. <br> Primavera / Estate <br> • Toppa ricamata davanti e dietro <br> • Toppa effetto spugna sulla parte anteriore <br> • Tasche con zip <br> Vestibilità oversize <br> 100% Poliestere con finitura satinata <br> Lavaggio a 30°"
+      "details": "Giacca varsity satinata firmata DLYNR GOAT.<br> Tagli attraenti, toppe ricamate e in tessuto spugna,<br> una buona dose di arroganza sportiva per il tuo outfit. <br> Primavera / Estate <br> • Toppa ricamata davanti e dietro <br> • Toppa effetto spugna sulla parte anteriore <br> • Tasche con zip <br> Vestibilità oversize <br> 100% Poliestere con finitura satinata <br> Lavaggio a 30°"
     },
     {
       "id": "P12",
