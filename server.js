@@ -29,7 +29,7 @@ app.get('/data', async (req, res) => {
 // POST route: aggiungi un nuovo utente
 app.post('/add-user', async (req, res) => {
   const newUser = req.body; // Il nuovo utente è passato nel body della richiesta
-  
+
   try {
     const data = await fs.readFile(jsonFilePath, 'utf8');
     const currentData = JSON.parse(data);
@@ -134,47 +134,33 @@ app.delete('/remove-cart', async (req, res) => {
   }
 });
 
-// Aggiungi una nuova route per aggiungere prodotti al purchaseHistory
-app.post('/add-purchase', async (req, res) => {
-  const username = req.query.username;  // Otteniamo lo username dai parametri di query
-  const { product } = req.body;         // Otteniamo il prodotto da aggiungere a purchaseHistory
-
+// DELETE route: svuota tutto il carrello di un utente
+app.delete('/clear-cart', async (req, res) => {
+  const username = req.query.username; // Otteniamo lo username dai parametri di query
   // Controllo se lo username è presente
   if (!username) {
     return res.status(400).json({ error: 'Lo username è obbligatorio' });
   }
-
-  // Controllo che il prodotto sia presente
-  if (!product || !product.id || !product.size) {
-    return res.status(400).json({ error: 'ID del prodotto e taglia obbligatori' });
-  }
-
   try {
     // Leggi i dati dal file JSON
     const data = await fs.readFile(jsonFilePath, 'utf8');
     const currentData = JSON.parse(data);
-
     // Trova l'utente con lo username fornito
     const user = currentData.Users.find(u => u.username === username);
-
     if (!user) {
       return res.status(404).json({ error: 'Utente non trovato' });
     }
-
-    // Aggiungi il prodotto al purchaseHistory dell'utente
-    user.purchaseHistory = user.purchaseHistory || []; // Assicurati che il campo esista
-    user.purchaseHistory.push(product);
-
+    // Svuota il carrello dell'utente
+    user.shoppingCart = [];
     // Scrivi i dati aggiornati nel file JSON
     await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
-
-    res.status(200).json({ message: 'Prodotto aggiunto allo storico acquisti', user });
+    // Risposta con successo
+    res.status(200).json({ message: 'Carrello svuotato con successo', user });
   } catch (err) {
-    res.status(500).json({ error: 'Errore nel modificare lo storico acquisti', details: err.message });
+    console.error('Errore nello svuotare il carrello:', err); // Log dell'errore
+    res.status(500).json({ error: 'Errore nello svuotare il carrello', details: err.message });
   }
 });
-
-
 // Avvia il server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
