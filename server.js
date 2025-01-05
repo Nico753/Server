@@ -8,8 +8,11 @@ const app = express();
 const port = 3000;
 
 // Usa il middleware cors per abilitare CORS
-app.use(cors()); // Permette richieste da tutte le origini
-
+app.use(cors({
+  origin: '*', // Permette tutte le origini
+  methods: ['GET', 'POST', 'DELETE', 'PUT'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 // Usa il middleware body-parser per parsare il body delle richieste POST
 app.use(bodyParser.json());
 
