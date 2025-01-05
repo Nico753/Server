@@ -134,13 +134,19 @@ app.delete('/remove-cart', async (req, res) => {
   }
 });
 
-// DELETE route: svuota tutto il carrello di un utente
-app.delete('/clear-cart', async (req, res) => {
-  const username = req.query.username; // Otteniamo lo username dai parametri di query
+// Aggiungi una nuova route per aggiungere prodotti al purchaseHistory
+app.post('/add-purchase', async (req, res) => {
+  const username = req.query.username;  // Otteniamo lo username dai parametri di query
+  const { product } = req.body;         // Otteniamo il prodotto da aggiungere a purchaseHistory
 
   // Controllo se lo username è presente
   if (!username) {
     return res.status(400).json({ error: 'Lo username è obbligatorio' });
+  }
+
+  // Controllo che il prodotto sia presente
+  if (!product || !product.id || !product.size) {
+    return res.status(400).json({ error: 'ID del prodotto e taglia obbligatori' });
   }
 
   try {
@@ -155,19 +161,19 @@ app.delete('/clear-cart', async (req, res) => {
       return res.status(404).json({ error: 'Utente non trovato' });
     }
 
-    // Svuota il carrello dell'utente
-    user.shoppingCart = [];
+    // Aggiungi il prodotto al purchaseHistory dell'utente
+    user.purchaseHistory = user.purchaseHistory || []; // Assicurati che il campo esista
+    user.purchaseHistory.push(product);
 
     // Scrivi i dati aggiornati nel file JSON
     await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
 
-    // Risposta con successo
-    res.status(200).json({ message: 'Carrello svuotato con successo', user });
+    res.status(200).json({ message: 'Prodotto aggiunto allo storico acquisti', user });
   } catch (err) {
-    console.error('Errore nello svuotare il carrello:', err); // Log dell'errore
-    res.status(500).json({ error: 'Errore nello svuotare il carrello', details: err.message });
+    res.status(500).json({ error: 'Errore nel modificare lo storico acquisti', details: err.message });
   }
 });
+
 
 // Avvia il server
 const PORT = process.env.PORT || 3000;
