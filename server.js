@@ -138,10 +138,15 @@ app.delete('/remove-cart', async (req, res) => {
 });
 
 app.post('/checkout', async (req, res) => {
-  const username = req.query.username; // Otteniamo lo username dai parametri di query
+  const username = req.query.username; // Ottieni lo username dai parametri di query
+  const products = req.body.products;  // Ottieni i prodotti dal corpo della richiesta
 
   if (!username) {
     return res.status(400).json({ error: 'Lo username è obbligatorio' });
+  }
+
+  if (!products || products.length === 0) {
+    return res.status(400).json({ error: 'I prodotti sono obbligatori' });
   }
 
   try {
@@ -154,15 +159,13 @@ app.post('/checkout', async (req, res) => {
       return res.status(404).json({ error: 'Utente non trovato' });
     }
 
-    if (!user.shoppingCart || user.shoppingCart.length === 0) {
-      return res.status(400).json({ error: 'Il carrello è vuoto' });
-    }
-
+    // Aggiungi i prodotti al purchaseHistory dell'utente
     user.purchaseHistory = user.purchaseHistory || [];
-    user.purchaseHistory.push(...user.shoppingCart);
+    user.purchaseHistory.push(...products);
 
-    user.shoppingCart = [];
-
+    // Non toccare il carrello, quindi non svuotiamo `shoppingCart`
+    
+    // Salva i dati modificati nel file
     await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
 
     res.status(200).json({
@@ -173,6 +176,7 @@ app.post('/checkout', async (req, res) => {
     res.status(500).json({ error: 'Errore durante il checkout', details: err.message });
   }
 });
+
 
 
 // Avvia il server
