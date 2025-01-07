@@ -133,7 +133,7 @@
         "false"
       ],
       "details": "Questi pantaloni Black Ops non ti renderanno un professionista, ma ti faranno sembrare tale.<br><br>• Stampa a trasferimento<br>• Etichetta tessuta<br><br>Vestibilità regolare<br><br>100% cotone antistrappo<br><br>Lavaggio a 30°",
-      "keyWords":"call of duty pantaloni black ops cargo antistrappo cotone abbigliamento tecnico streetwear tasche multiple"
+      "keyWords":"call of duty pantaloni pantalone black ops cargo antistrappo cotone abbigliamento tecnico streetwear tasche multiple"
     },
     {
       "id": "P6",
@@ -326,7 +326,7 @@
         "true",
         "true"
       ],
-      "details": "Brew Label Dolly Noire: Per quando la vostra birra deve essere in linea con il vostro outfit<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Jersey non garzato<br<br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
+      "details": "Brew Label Dolly Noire: Per quando<br> la vostra birra deve essere in linea con il vostro outfit<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Jersey non garzato<br<br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
       "keyWords":"felpa felpe brew label hoodie zip primavera estate jersey serigrafia cotone poliestere streetwear"
     },
     {
@@ -352,6 +352,124 @@
       ],
       "details": "A chi crederai?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica anteriore e posteriore<br>• Cuciture a contrasto<br>• Etichetta in tessuto<br>• Dotted coulisse<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>65% Cotone 35% Poliestere<br><br>Lavaggio a 30°",
       "keyWords":"felpa felpe hoodie the truth lies autunno inverno streetwear serigrafia jersey garzato abbigliamento casual"
+    },
+    {
+      "id": "P15",
+      "bestSeller": "false",
+      "name": "Darius Hoodie Black",
+      "type": "felpa",
+      "price": "99.99",
+      "salePrice": "59.00",
+      "picture": [
+        "../img/Prodotti/P15/thumbnails1.webp",
+        "../img/Prodotti/P15/thumbnails2.webp",
+        "../img/Prodotti/P15/thumbnails3.webp",
+        "../img/Prodotti/P15/thumbnails4.webp",
+        "../img/Prodotti/P15/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "flase",
+        "false",
+        "true",
+        "true"
+      ],
+      "details": "Con la sua possente ghigliottina noxiana, Darius fa a pezzi i nemici,<br> incarnando una potenza cruda e inarrestabile. Darius sarà il vostro campione?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica fronte e retro<br>• Stampa frontale e posteriore in pvc oro<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
+      "keyWords":"felpa felpe darius hoodie black inverno autunno jersey cotone poliestere stampa serigrafica noxiana"
+    },
+    {
+      "id": "P17",
+      "bestSeller": "true",
+      "name": "Cù-Sìth Sweatpants Black",
+      "type": "pantalone",
+      "price": "89.99",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P17/thumbnails1.webp",
+        "../img/Prodotti/P17/thumbnails2.webp",
+        "../img/Prodotti/P17/thumbnails3.webp",
+        "../img/Prodotti/P17/thumbnails4.webp"
+      ],
+      "size": [
+        "false",
+        "false",
+        "false",
+        "true",
+        "true"
+      ],
+      "details": "Un ululato inquietante, un presagio di morte imminente.<br> Con i suoi occhi che brillano di conoscenza ultraterrena, Cù-Sìth predice l'arrivo dell'inevitabile.<br><br>Autunno / Inverno<br><br>• Serigrafia fronte e retro<br>• Maglia spazzolata<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
+      "keyWords": "cù-sìth sweatpants pantalone pantaloni autunno inverno"
+
+    },
+    {
+      "id": "P18",
+      "bestSeller": "true",
+      "name": "Denim Carpenter Pants Black",
+      "type": "pantalone",
+      "price": "120.99",
+      "salePrice": "90.00",
+      "picture": [
+        "../img/Prodotti/P18/thumbnails1.webp",
+        "../img/Prodotti/P18/thumbnails2.webp",
+        "../img/Prodotti/P18/thumbnails3.webp",
+        "../img/Prodotti/P18/thumbnails4.webp",
+        "../img/Prodotti/P18/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "Dal martellare chiodi all'andare per strada,<br> questi carpenter pants vi coprono con comfort e stile.<br><br>• Gancio a martello<br>• Etichette tessute<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°",
+      "keyWords": "denim carpenter pants black pantalone pantaloni gancio martello etichette tessute vestibilità"
+    },
+    {
+      "id": "P19",
+      "bestSeller": "false",
+      "name": "Desert Skull Sweatshorts Black",
+      "type": "pantalone",
+      "price": "59.99",
+      "salePrice": "49.00",
+      "picture": [
+        "../img/Prodotti/P19/thumbnails1.webp",
+        "../img/Prodotti/P19/thumbnails2.webp",
+        "../img/Prodotti/P19/thumbnails3.webp",
+        "../img/Prodotti/P19/thumbnails4.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "L'iconico teschio di Dolly Noire reimmaginato come cyber-tuareg.<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br><br>Vestibilità regular<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
+      "keyWords": "desert skull sweatshorts black pantalone pantaloni primavera estate teschio"
+    },
+    {
+      "id": "P20",
+      "bestSeller": "false",
+      "name": "Cotton Ripstop Laced Easy Cargo",
+      "type": "pantalone",
+      "price": "99.99",
+      "salePrice": "59.00",
+      "picture": [
+        "../img/Prodotti/P20/thumbnails1.webp",
+        "../img/Prodotti/P20/thumbnails2.webp",
+        "../img/Prodotti/P20/thumbnails3.webp",
+        "../img/Prodotti/P20/thumbnails4.webp"
+      ],
+      "size": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "details": "DLYNR Cargo ripstop, sei più un tipo da fondo stretto, o largo? Ora sei libero di decidere<br><br>• 100% cotone ripstop<br>• Etichetta tessuta<br>• Lacci alla caviglia<br>• Stampa serigrafica<br>• Vestibilità regular<br><br>Lavare a 30°",
+      "keyWords": "cotton ripstop laced easy cargo pantalone pantaloni cotone"
     }
   ]
 }
