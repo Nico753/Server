@@ -470,6 +470,31 @@
       ],
       "details": "DLYNR Cargo ripstop, sei più un tipo da fondo stretto, o largo? Ora sei libero di decidere<br><br>• 100% cotone ripstop<br>• Etichetta tessuta<br>• Lacci alla caviglia<br>• Stampa serigrafica<br>• Vestibilità regular<br><br>Lavare a 30°",
       "keyWords": "cotton ripstop laced easy cargo pantalone pantaloni cotone"
+    },
+    {
+      "id": "P21",
+      "bestSeller": "ture",
+      "name": "ENCH Tokyo Bowling Shirt",
+      "type": "camicia",
+      "price": "95.99",
+      "salePrice": "52.00",
+      "picture": [
+        "../img/Prodotti/P21/thumbnails1.webp",
+        "../img/Prodotti/P21/thumbnails2.webp",
+        "../img/Prodotti/P21/thumbnails3.webp",
+        "../img/Prodotti/P21/thumbnails4.webp",
+        "../img/Prodotti/P21/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "false",
+        "false",
+        "true"
+      ],
+      "details": "DLYNR onora ancora una volta la cultura asiatica. La serie BENCH continua con la Pagoda: una delle più famose architetture asiatiche.<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Etichetta Bench<br><br>Vestibilità regular<br><br>100% cotone Popeline<br><br>Lavaggio a 30°",
+      "keyWords": "ench tokyo bowling shirt camicia stampa serigrafica"
+
     }
   ]
 }
