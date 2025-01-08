@@ -3,11 +3,18 @@
     {
       "id": "53b8",
       "username": "Admin",
+      "name":"",
+      "surname":"",
       "email": "admin@gmail.com",
       "password": "admin",
       "country": "Italia",
       "city": "Barge",
       "address": "Molini 3",
+      "phoneNumber":"",
+      "cardNumber":"",
+      "cvv":"",
+      "expirationDate":"",
+      "
       "shoppingCart": [
       ],
       "purchaseHistory":[
