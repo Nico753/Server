@@ -473,7 +473,7 @@
     },
     {
       "id": "P21",
-      "bestSeller": "ture",
+      "bestSeller": "true",
       "name": "ENCH Tokyo Bowling Shirt",
       "type": "camicia",
       "price": "95.99",
@@ -494,6 +494,31 @@
       ],
       "details": "DLYNR onora ancora una volta la cultura asiatica. La serie BENCH continua con la Pagoda: una delle più famose architetture asiatiche.<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Etichetta Bench<br><br>Vestibilità regular<br><br>100% cotone Popeline<br><br>Lavaggio a 30°",
       "keyWords": "ench tokyo bowling shirt camicia stampa serigrafica"
+
+    },
+    {
+      "id": "P22",
+      "bestSeller": "true",
+      "name": "Leshen, giacca imbottita",
+      "type": "giacca",
+      "price": "260.00",
+      "salePrice": "235.00",
+      "picture": [
+        "../img/Prodotti/P22/thumbnails1.webp",
+        "../img/Prodotti/P22/thumbnails2.webp",
+        "../img/Prodotti/P22/thumbnails3.webp",
+        "../img/Prodotti/P22/thumbnails4.webp",
+        "../img/Prodotti/P22/thumbnails5.webp"
+      ],
+      "size": [
+        "true",
+        "false",
+        "true",
+        "true",
+        "false"
+      ],
+      "details": "Un omaggio al bosco, che rappresenta i colori e gli elementi della natura. Rivestimento in TPU<br>autunno/inverno • Stampa digitale allover • Etichetta frontale con logo in gomma 3D • Vestibilità regolare • Tessuto esterno: 100% poliestere • Imbottitura: 100% poliestere 400 gsm Lavaggio a 30",
+      "keyWords": "leshen giacca outdoor autunno inverno"
 
     }
   ]
