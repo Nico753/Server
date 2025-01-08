@@ -196,12 +196,12 @@
       "price": 215.00,
       "salePrice": 0,
       "picture": [
-        "../img/Prodotti/P8/thumbnails1.webp",
-        "../img/Prodotti/P8/thumbnails2.webp",
-        "../img/Prodotti/P8/thumbnails3.webp",
-        "../img/Prodotti/P8/thumbnails4.webp",
-        "../img/Prodotti/P8/thumbnails5.webp",
-        "../img/Prodotti/P8/thumbnails6.webp"
+        "https://i.postimg.cc/nV4ntrN3/thumbnails1.webp",
+        "https://i.postimg.cc/C5gYqpnC/thumbnails2.webp",
+        "https://i.postimg.cc/SxTytPHq/thumbnails3.webp",
+        "https://i.postimg.cc/fbVw4Khd/thumbnails4.webp",
+        "https://i.postimg.cc/767whZhY/thumbnails5.webp",
+        "https://i.postimg.cc/d3jFRNGb/thumbnails6.webp"
       ],
       "size": [
         true,
@@ -221,12 +221,12 @@
       "price": 150.00,
       "salePrice": 99.99,
       "picture": [
-        "../img/Prodotti/P9/thumbnails1.webp",
-        "../img/Prodotti/P9/thumbnails2.webp",
-        "../img/Prodotti/P9/thumbnails3.webp",
-        "../img/Prodotti/P9/thumbnails4.webp",
-        "../img/Prodotti/P9/thumbnails5.webp",
-        "../img/Prodotti/P9/thumbnails6.webp"
+        "https://i.postimg.cc/SNC09xWw/thumbnails1.webp",
+        "https://i.postimg.cc/nzCghFFS/thumbnails2.webp",
+        "https://i.postimg.cc/44rkn9h6/thumbnails3.webp",
+        "https://i.postimg.cc/kGRckDJ9/thumbnails4.webp",
+        "https://i.postimg.cc/QMNvvgR3/thumbnails5.webp",
+        "https://i.postimg.cc/XXM833q5/thumbnails6.webp"
       ],
       "size": [
         true,
@@ -246,11 +246,12 @@
       "price": 385.00,
       "salePrice": 0,
       "picture": [
-        "../img/Prodotti/P10/thumbnails1.webp",
-        "../img/Prodotti/P10/thumbnails2.webp",
-        "../img/Prodotti/P10/thumbnails3.webp",
-        "../img/Prodotti/P10/thumbnails4.webp",
-        "../img/Prodotti/P10/thumbnails5.webp"
+        "https://i.postimg.cc/Pf6bMWMD/thumbnails1.webp",
+        "https://i.postimg.cc/4dP6qVkr/thumbnails2.webp",
+        "https://i.postimg.cc/bNsxVZ6B/thumbnails3.webp",
+        "https://i.postimg.cc/YSfYLY9h/thumbnails4.webp",
+        "https://i.postimg.cc/jdmzpRmd/thumbnails5.webp",
+        "https://i.postimg.cc/Y0S6H0tj/thumbnails6.webp"
       ],
       "size": [
         true,
@@ -270,12 +271,12 @@
       "price": 169.00,
       "salePrice": 65.00,
       "picture": [
-        "../img/Prodotti/P11/thumbnails1.webp",
-        "../img/Prodotti/P11/thumbnails2.webp",
-        "../img/Prodotti/P11/thumbnails3.webp",
-        "../img/Prodotti/P11/thumbnails4.webp",
-        "../img/Prodotti/P11/thumbnails5.webp",
-        "../img/Prodotti/P11/thumbnails6.webp"
+        "https://i.postimg.cc/50HVXq9V/thumbnails1.webp",
+        "https://i.postimg.cc/fRwQchW5/thumbnails2.webp",
+        "https://i.postimg.cc/66vKw01V/thumbnails3.webp",
+        "https://i.postimg.cc/kXPm5bk0/thumbnails4.webp",
+        "https://i.postimg.cc/NMWwm9Lr/thumbnails5.webp",
+        "https://i.postimg.cc/tJWG5qVv/thumbnails6.webp"
       ],
       "size": [
         true,
