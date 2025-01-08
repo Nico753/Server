@@ -31,10 +31,10 @@
       "salePrice": 0,
       "picture": [
         "https://i.postimg.cc/1567S0G5/thumbnails1.webp",
-        "https://drive.google.com/uc?export=view&id=1WZinCNhS5nMCw9e8-yjeYVQKQ4Z75oDp",
-        "https://drive.google.com/uc?export=view&id=13NVSa2Pj4HXPHpIKmeRdN2jw4o4WuUeF",
-        "https://drive.google.com/uc?export=view&id=1gxLe7b34YRGISo8K0UxG0_BAZrUf602Q",
-        "https://drive.google.com/uc?export=view&id=1tfhN4V9J8Y4GZYG92vj0x9CoXwgxkzCj"
+        "https://i.postimg.cc/RFN7k2PB/thumbnails2.webp",
+        "https://i.postimg.cc/RCJ1X561/thumbnails3.webp",
+        "https://i.postimg.cc/ZnNrRpts/thumbnails4.webp",
+        "https://i.postimg.cc/859RNw3r/thumbnails5.webp"
       ],
       "size": [
         true,
@@ -54,12 +54,11 @@
       "price": 250.00,
       "salePrice": 200.00,
       "picture": [
-        "../img/Prodotti/P2/thumbnails1.webp",
-        "../img/Prodotti/P2/thumbnails2.webp",
-        "../img/Prodotti/P2/thumbnails3.webp",
-        "../img/Prodotti/P2/thumbnails4.webp",
-        "../img/Prodotti/P2/thumbnails5.webp",
-        "../img/Prodotti/P2/thumbnails6.webp"
+        "https://i.postimg.cc/yx6DqR6S/thumbnails1.webp",
+        "https://i.postimg.cc/XJbZ8hTL/thumbnails2.webp",
+        "https://i.postimg.cc/y823JWjw/thumbnails3.webp",
+        "https://i.postimg.cc/ydyDrjKH/thumbnails4.webp",
+        "https://i.postimg.cc/k586W9hD/thumbnails5.webp"
       ],
       "size": [
         true,
@@ -79,9 +78,9 @@
       "price": 90.00,
       "salePrice": 0,
       "picture": [
-        "../img/Prodotti/P3/thumbnails1.webp",
-        "../img/Prodotti/P3/thumbnails2.webp",
-        "../img/Prodotti/P3/thumbnails3.webp"
+        "https://i.postimg.cc/GtShZSSZ/thumbnails1.webp",
+        "https://i.postimg.cc/90fQgj1d/thumbnails2.webp",
+        "https://i.postimg.cc/zB8BWhgP/thumbnails3.webp"
       ],
       "size": [
         true,
@@ -101,10 +100,10 @@
       "price": 55.00,
       "salePrice": 0,
       "picture": [
-        "../img/Prodotti/P4/thumbnails1.webp",
-        "../img/Prodotti/P4/thumbnails2.webp",
-        "../img/Prodotti/P4/thumbnails3.webp",
-        "../img/Prodotti/P4/thumbnails4.webp"
+        "https://i.postimg.cc/76HHbyFF/thumbnails1.webp",
+        "https://i.postimg.cc/rw4FPjGP/thumbnails2.webp",
+        "https://i.postimg.cc/FKgF9KBb/thumbnails3.webp",
+        "https://i.postimg.cc/Xv07S5Q7/thumbnails4.webp"
       ],
       "size": [
         true,
@@ -124,11 +123,11 @@
       "price": 110.00,
       "salePrice": 89.99,
       "picture": [
-        "../img/Prodotti/P5/thumbnails1.webp",
-        "../img/Prodotti/P5/thumbnails2.webp",
-        "../img/Prodotti/P5/thumbnails3.webp",
-        "../img/Prodotti/P5/thumbnails4.webp",
-        "../img/Prodotti/P5/thumbnails5.webp"
+        "https://i.postimg.cc/1zPPYQ38/thumbnails1.webp",
+        "https://i.postimg.cc/SN2yndPx/thumbnails2.webp",
+        "https://i.postimg.cc/RVkvKfrQ/thumbnails3.webp",
+        "https://i.postimg.cc/wxbqxZ0r/thumbnails4.webp",
+        "https://i.postimg.cc/NjRB4MBh/thumbnails5.webp"
       ],
       "size": [
         true,
@@ -148,12 +147,12 @@
       "price": 120.00,
       "salePrice": 85.99,
       "picture": [
-        "../img/Prodotti/P6/thumbnails1.webp",
-        "../img/Prodotti/P6/thumbnails2.webp",
-        "../img/Prodotti/P6/thumbnails3.webp",
-        "../img/Prodotti/P6/thumbnails4.webp",
-        "../img/Prodotti/P6/thumbnails5.webp",
-        "../img/Prodotti/P6/thumbnails6.webp"
+        "https://i.postimg.cc/437f95y5/thumbnails1.webp",
+        "https://i.postimg.cc/13z59PZb/thumbnails2.webp",
+        "https://i.postimg.cc/d1CVzBK1/thumbnails3.webp",
+        "https://i.postimg.cc/7hyZD2xN/thumbnails4.webp",
+        "https://i.postimg.cc/bwFYrMyr/thumbnails5.webp",
+        "https://i.postimg.cc/gkm2T8tz/thumbnails6.webp"
       ],
       "size": [
         false,
@@ -173,11 +172,11 @@
       "price": 165.00,
       "salePrice": 0,
       "picture": [
-        "../img/Prodotti/P7/thumbnails1.webp",
-        "../img/Prodotti/P7/thumbnails2.webp",
-        "../img/Prodotti/P7/thumbnails3.webp",
-        "../img/Prodotti/P7/thumbnails4.webp",
-        "../img/Prodotti/P7/thumbnails5.webp"
+        "https://i.postimg.cc/43V30PG3/thumbnails1.webp",
+        "https://i.postimg.cc/J7qsmpkD/thumbnails2.webp",
+        "https://i.postimg.cc/vBymwn8t/thumbnails3.webp",
+        "https://i.postimg.cc/Jz9nKg9g/thumbnails4.webp",
+        "https://i.postimg.cc/W4CHdmq0/thumbnails5.jpg"
       ],
       "size": [
         true,
