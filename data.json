@@ -549,6 +549,119 @@
       ],
       "details": "I venti del deserto scolpiscono le dune di Shirìn, le loro linee sono una testimonianza della resilienza della natura di fronte alla devastazione.<br><br>Primavera / Estate<br><br>• Tasche in rete di poliestere<br>• Anello a D<br>• Stampa digitale<br><br>Vestibilità regolare<br><br>100% cotone Popeline<br><br>Lavaggio a 30°",
       "keyWords": "camicia camice bowling camicie dune brown autunno"
+    },
+    {
+      "id": "P24",
+      "bestSeller": "false",
+      "name": "GOAT Hockey Hoodie Plus Yellow",
+      "type": "felpa",
+      "price": "185.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P24/thumbnails1.webp",
+        "../img/Prodotti/P24/thumbnails2.webp",
+        "../img/Prodotti/P24/thumbnails3.webp",
+        "../img/Prodotti/P24/thumbnails4.webp",
+      ],
+      "size": [
+        "false",
+        "true",
+        "true",
+        "false",
+        "true"
+      ],
+      "details": "Una versione rivisitata della classica felpa DLYNR GOAT.<br>Tagli dinamici, design rinnovato.<br><br>Autunno / Inverno<br><br>70% cotone 30% poliestere",
+      "keyWords": "felpa felpe goat inverno autunno yellow giallo hoodie"
+    },
+    {
+      "id": "P25",
+      "bestSeller": "false",
+      "name": "Leshen Hoodie Brown",
+      "type": "felpa",
+      "price": "92.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P25/thumbnails1.webp",
+        "../img/Prodotti/P25/thumbnails2.webp",
+      ],
+      "size": [
+        "false",
+        "true",
+        "true",
+        "true",
+        "false"
+      ],
+      "details": "Mostrando la sua duplice natura di protettore e di maligno imbroglione, il Leshen ricorda all'uomo le conseguenze del mancato rispetto o del maltrattamento della natura e l'importanza di mantenere un rapporto armonioso con l'ambiente.<br><br>Autunno / Inverno<br><br>• Stampa serigrafica sul fronte e sul retro<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>65% cotone 35% poliestere<br><br>Lavaggio a 30°",
+      "keyWords": "felpa felpe leshen inverno autunno marrone brown hoodie"
+    },
+    {
+      "id": "P26",
+      "bestSeller": "true",
+      "name": "Medusa Hoodie White",
+      "type": "felpa",
+      "price": "105.00",
+      "salePrice": "82.00",
+      "picture": [
+        "../img/Prodotti/P26/thumbnails1.webp",
+        "../img/Prodotti/P26/thumbnails2.webp",
+      ],
+      "size": [
+        "true",
+        "fasle",
+        "true",
+        "true",
+        "false"
+      ],
+      "details": "Grafica best seller Mythos SS17, l'iconica creatura mitologica torna in tutto il suo splendore.<br><br>• Stampa serigrafica<br>• Sfoderato<br><br>Vestibilità regular<br><br>100% cotone<br><br>Lavaggio a 30°",
+      "keyWords": "felpa felpe medusa inverno autunno bianco bianca white hoodie"
+    },
+    {
+      "id": "P27",
+      "bestSeller": "true",
+      "name": "Celtic Ties Interlock Hoodie",
+      "type": "felpa",
+      "price": "105.00",
+      "salePrice": "82.00",
+      "picture": [
+        "../img/Prodotti/P27/thumbnails1.webp",
+        "../img/Prodotti/P27/thumbnails2.webp",
+        "../img/Prodotti/P27/thumbnails3.webp",
+        "../img/Prodotti/P27/thumbnails4.webp",
+      ],
+      "size": [
+        "true",
+        "fasle",
+        "false",
+        "true",
+        "true"
+      ],
+      "details": "Spesso caratterizzati da cicli infiniti senza inizio né fine, questi motivi decorativi riflettono i temi dell'unità, della continuità e delle profonde connessioni tra il mondo spirituale e quello fisico nella cultura celtica.<br><br>Autunno / Inverno<br><br>• Interlock jacquard<br>• Ricamo sul polso<br><br>Vestibilità regolare<br><br>56% Poliestere 40% Viscosa 4% Elastane<br><br>Lavaggio a 30°",
+      "keyWords": "felpa felpe celtic ties celtico inverno autunno interlock rosso rossa red bordeaux marrone brown hoodie"
+    },
+    {
+      "id": "P28",
+      "bestSeller": "false",
+      "name": "Celtic Ties Interlock Sweatpants",
+      "type": "pantaloni",
+      "price": "90.00",
+      "salePrice": "0",
+      "picture": [
+        "../img/Prodotti/P28/thumbnails1.webp",
+        "../img/Prodotti/P28/thumbnails2.webp",
+        "../img/Prodotti/P28/thumbnails3.webp",
+        "../img/Prodotti/P28/thumbnails4.webp",
+        "../img/Prodotti/P28/thumbnails5.webp",
+        "../img/Prodotti/P28/thumbnails6.webp",
+      ],
+      "size": [
+        "false",
+        "true",
+        "true",
+        "true",
+        "false"
+      ],
+      "details": "Spesso caratterizzati da cicli infiniti senza inizio né fine, questi motivi decorativi riflettono i temi dell'unità, della continuità e delle profonde connessioni tra il mondo spirituale e quello fisico nella cultura celtica.<br><br>Autunno / Inverno<br><br>• Interlock jacquard<br>• Ricamo frontale<br><br>Vestibilità regolare<br><br>56% Poliestere 40% Viscosa 4% Elastan<br><br>Lavaggio a 30°",
+      "keyWords": "pantaloni pantalone celtic ties celtico inverno autunno interlock rosso rossa red bordeaux marrone brown sweatpants"
     }
   ]
 }
