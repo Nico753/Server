@@ -296,10 +296,10 @@
       "price": 109.00,
       "salePrice": 89.00,
       "picture": [
-        "../img/Prodotti/P12/thumbnails1.webp",
-        "../img/Prodotti/P12/thumbnails2.webp",
-        "../img/Prodotti/P12/thumbnails3.webp",
-        "../img/Prodotti/P12/thumbnails4.webp"
+        "https://i.postimg.cc/prhLtM5K/thumbnails1.webp",
+        "https://i.postimg.cc/Y9yCVC0p/thumbnails2.webp",
+        "https://i.postimg.cc/xCddtz0x/thumbnails3.webp",
+        "https://i.postimg.cc/vTJHY25k/thumbnails4.webp"
       ],
       "size": [
         true,
@@ -319,10 +319,10 @@
       "price": 115.00,
       "salePrice": 0,
       "picture": [
-        "../img/Prodotti/P13/thumbnails1.webp",
-        "../img/Prodotti/P13/thumbnails2.webp",
-        "../img/Prodotti/P13/thumbnails3.webp",
-        "../img/Prodotti/P13/thumbnails4.webp"
+        "https://i.postimg.cc/ZnTXr84n/thumbnails1.webp",
+        "https://i.postimg.cc/rsQ3gDwJ/thumbnails2.webp",
+        "https://i.postimg.cc/7YZphnKQ/thumbnails3.webp",
+        "https://i.postimg.cc/nVkynPGD/thumbnails4.webp"
       ],
       "size": [
         true,
@@ -342,11 +342,11 @@
       "price": 99.99,
       "salePrice": 0,
       "picture": [
-        "../img/Prodotti/P14/thumbnails1.webp",
-        "../img/Prodotti/P14/thumbnails2.webp",
-        "../img/Prodotti/P14/thumbnails3.webp",
-        "../img/Prodotti/P14/thumbnails4.webp",
-        "../img/Prodotti/P14/thumbnails5.webp"
+        "https://i.postimg.cc/fbzqLxjR/thumbnails1.webp",
+        "https://i.postimg.cc/9MzxPCk3/thumbnails2.webp",
+        "https://i.postimg.cc/mrmXFt8N/thumbnails3.webp",
+        "https://i.postimg.cc/RZQb4PtY/thumbnails4.webp",
+        "https://i.postimg.cc/zBMx04my/thumbnails5.webp"
       ],
       "size": [
         true,
@@ -366,11 +366,11 @@
       "price": 99.99,
       "salePrice": 59.00,
       "picture": [
-        "../img/Prodotti/P15/thumbnails1.webp",
-        "../img/Prodotti/P15/thumbnails2.webp",
-        "../img/Prodotti/P15/thumbnails3.webp",
-        "../img/Prodotti/P15/thumbnails4.webp",
-        "../img/Prodotti/P15/thumbnails5.webp"
+        "https://i.postimg.cc/6pwYjdPf/thumbnails1.webp",
+        "https://i.postimg.cc/X79sk2sv/thumbnails2.webp",
+        "https://i.postimg.cc/Nj4bWKqq/thumbnails3.webp",
+        "https://i.postimg.cc/SKxVqmkX/thumbnails4.webp",
+        "https://i.postimg.cc/W4Y81x15/thumbnails5.jpg"
       ],
       "size": [
         true,
@@ -381,6 +381,30 @@
       ],
       "details": "Con la sua possente ghigliottina noxiana, Darius fa a pezzi i nemici,<br> incarnando una potenza cruda e inarrestabile. Darius sarà il vostro campione?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica fronte e retro<br>• Stampa frontale e posteriore in pvc oro<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
       "keyWords":"felpa felpe darius hoodie black inverno autunno jersey cotone poliestere stampa serigrafica noxiana"
+    },
+    {
+      "id": "P16",
+      "bestSeller": true,
+      "name": "Kamado Tanjiro Sweatpants",
+      "type": "pantalone",
+      "price": 126.99,
+      "salePrice": 0,
+      "picture": [
+        "https://i.postimg.cc/dtcB32Jc/thumbnails1.webp",
+        "https://i.postimg.cc/MThYyRRR/thumbnails2.webp",
+        "https://i.postimg.cc/FRfZdGfN/thumbnails3.webp",
+        "https://i.postimg.cc/nrBGTzYW/thumbnails5.webp"
+      ],
+      "size": [
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "details": "L'haori a scacchi di Tanjiro è così iconico che<br> potrebbe uccidere i demoni da solo.<br><br>Primavera / Estate<br><br>• Jersey non garzato<br><br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
+      "keyWords": "sweatpants pantalone pantaloni casual Kamado Tanjiro Demon Slayer abbigliamento anime haori a scacchi primavera estate abbigliamento cotone pantaloni comodi stile casual moda giapponese vestiti ispirati anime cotone poliestere lavaggio a 30 gradi abbigliamento autunno inverno pantaloni Tanjiro outfit streetwear pantaloni da uomo pantaloni unisex"
+
     },
     {
       "id": "P17",
