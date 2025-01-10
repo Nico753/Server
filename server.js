@@ -7,9 +7,6 @@ const cors = require('cors');  // Importa il pacchetto cors
 const app = express();
 const port = 3000;
 
-app.use(express.json({ limit: '10mb' }));  // Aumenta il limite della dimensione
-app.use(express.urlencoded({ limit: '10mb', extended: true }));
-
 // Usa il middleware cors per abilitare CORS
 app.use(cors({
   origin: '*', // Permette tutte le origini
