@@ -12,6 +12,7 @@
       "address": "Molini 3",
       "phoneNumber":null,
       "cardNumber":null,
+      "cardName":null,
       "cvv":null,
       "expirationDate":null,
       "shoppingCart": [
