@@ -206,6 +206,45 @@ app.post('/add-purchase', async (req, res) => {
   }
 });
 
+// POST route: aggiorna l'immagine del profilo di un utente
+app.post('/update-profile-image', async (req, res) => {
+  const username = req.query.username;   // Otteniamo lo username dai parametri di query
+  const { imageSrc } = req.body;         // Otteniamo il nuovo src dell'immagine dal body della richiesta
+
+  // Controllo che lo username e l'immagine siano presenti
+  if (!username) {
+    return res.status(400).json({ error: 'Lo username è obbligatorio' });
+  }
+
+  if (!imageSrc) {
+    return res.status(400).json({ error: 'L\'immagine è obbligatoria' });
+  }
+
+  try {
+    // Leggi i dati dal file JSON
+    const data = await fs.readFile(jsonFilePath, 'utf8');
+    const currentData = JSON.parse(data);
+
+    // Trova l'utente con lo username fornito
+    const user = currentData.Users.find(u => u.username === username);
+
+    if (!user) {
+      return res.status(404).json({ error: 'Utente non trovato' });
+    }
+
+    // Aggiorna il campo dell'immagine del profilo dell'utente
+    user.profileImg = imageSrc; // Impostiamo il nuovo percorso dell'immagine
+
+    // Scrivi i dati aggiornati nel file JSON
+    await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
+
+    // Risposta con successo
+    res.status(200).json({ message: 'Immagine del profilo aggiornata con successo', user });
+  } catch (err) {
+    console.error('Errore nell\'aggiornare l\'immagine del profilo:', err);
+    res.status(500).json({ error: 'Errore nell\'aggiornare l\'immagine del profilo', details: err.message });
+  }
+});
 
 // Avvia il server
 const PORT = process.env.PORT || 3000;
