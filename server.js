@@ -206,6 +206,45 @@ app.post('/add-purchase', async (req, res) => {
   }
 });
 
+// PUT route: sostituisce tutti i campi di un utente specificato
+app.put('/update-user', async (req, res) => {
+  const username = req.query.username; // Otteniamo lo username dai parametri di query
+  const updatedUser = req.body;        // I nuovi dati dell'utente sono passati nel body della richiesta
+
+  // Controllo se lo username è presente
+  if (!username) {
+    return res.status(400).json({ error: 'Lo username è obbligatorio' });
+  }
+
+  // Controllo che i nuovi dati dell'utente siano presenti
+  if (!updatedUser || typeof updatedUser !== 'object' || Array.isArray(updatedUser)) {
+    return res.status(400).json({ error: 'Dati utente mancanti o formato non valido' });
+  }
+
+  try {
+    // Leggi i dati dal file JSON
+    const data = await fs.readFile(jsonFilePath, 'utf8');
+    const currentData = JSON.parse(data);
+
+    // Trova l'utente con lo username fornito
+    const userIndex = currentData.Users.findIndex(u => u.username === username);
+
+    if (userIndex === -1) {
+      return res.status(404).json({ error: 'Utente non trovato' });
+    }
+
+    // Sostituisci i dati dell'utente
+    currentData.Users[userIndex] = { ...updatedUser, username }; // Mantiene lo username invariato
+
+    // Scrivi i dati aggiornati nel file JSON
+    await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
+
+    res.status(200).json({ message: 'Dati utente aggiornati con successo', updatedUser });
+  } catch (err) {
+    res.status(500).json({ error: 'Errore nell'aggiornare i dati utente', details: err.message });
+  }
+});
+
 // Avvia il server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
