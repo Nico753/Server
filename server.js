@@ -49,6 +49,7 @@ app.post('/add-user', async (req, res) => {
   }
 });
 
+
 app.post('/add-cart', async (req, res) => {
   const username = req.query.username;  // Otteniamo lo username dai parametri di query
   const { product } = req.body;         // Otteniamo il prodotto da aggiungere al carrello
