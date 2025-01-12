@@ -242,7 +242,7 @@ app.put('/update-user', async (req, res) => {
 
     res.status(200).json({ message: 'Dati utente aggiornati con successo', updatedUser });
   } catch (err) {
-    res.status(500).json({ error: 'Errore nell'aggiornare i dati utente', details: err.message });
+    res.status(500).json({ error: 'Errore nell\'aggiornare i dati utente', details: err.message });
   }
 });
 
