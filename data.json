@@ -689,7 +689,7 @@
   },
      {
     "id": "P29",
-    "bestSeller": false,
+    "bestSeller": true,
     "name": "Ryu Dragon Sweatpants Black",
     "type": "pantalone",
     "price": 134.00,
