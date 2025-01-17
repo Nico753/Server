@@ -249,7 +249,7 @@ app.put('/update-user', async (req, res) => {
 // PUT route: sostituisce l'immagine dello user
 app.put('/change-image', async (req, res) => {
   const username = req.query.username; // Otteniamo lo username dai parametri di query
-  const { image } = req.body;          // Otteniamo la nuova immagine in formato Base64 dal body della richiesta
+  const { profileImageSrc: image } = req.body;// Otteniamo la nuova immagine in formato Base64 dal body della richiesta
 
   // Controllo se lo username è presente
   if (!username) {
