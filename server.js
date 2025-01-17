@@ -247,18 +247,18 @@ app.put('/update-user', async (req, res) => {
 });
 
 // PUT route: sostituisce l'immagine dello user
-app.put('/change-image', async (req, res) => {
+app.put('/update-profile-image', async (req, res) => {
   const username = req.query.username; // Otteniamo lo username dai parametri di query
-  const { profileImageSrc: image } = req.body;// Otteniamo la nuova immagine in formato Base64 dal body della richiesta
+  const { profileImageSrc } = req.body; // Otteniamo la nuova immagine dal body della richiesta
 
   // Controllo se lo username è presente
   if (!username) {
     return res.status(400).json({ error: 'Lo username è obbligatorio' });
   }
 
-  // Controllo se l'immagine è presente
-  if (!image || typeof image !== 'string') {
-    return res.status(400).json({ error: 'Immagine mancante o formato non valido' });
+  // Controllo che il link dell'immagine sia presente
+  if (!profileImageSrc || typeof profileImageSrc !== 'string') {
+    return res.status(400).json({ error: 'Il link della nuova immagine è obbligatorio e deve essere una stringa' });
   }
 
   try {
@@ -273,18 +273,18 @@ app.put('/change-image', async (req, res) => {
       return res.status(404).json({ error: 'Utente non trovato' });
     }
 
-    // Aggiorna l'immagine dell'utente
-    user.image = image;
+    // Aggiorna il campo profileImageSrc dell'utente
+    user.profileImageSrc = profileImageSrc;
 
     // Scrivi i dati aggiornati nel file JSON
     await fs.writeFile(jsonFilePath, JSON.stringify(currentData, null, 2));
 
-    res.status(200).json({ message: 'Immagine aggiornata con successo', user });
+    res.status(200).json({ message: 'Immagine del profilo aggiornata con successo', user });
   } catch (err) {
-    console.error('Errore nel cambiare l\'immagine:', err); // Log dell'errore
-    res.status(500).json({ error: 'Errore nel cambiare l\'immagine', details: err.message });
+    res.status(500).json({ error: 'Errore nell\'aggiornare l\'immagine del profilo', details: err.message });
   }
 });
+
 
 // Avvia il server
 const PORT = process.env.PORT || 3000;
