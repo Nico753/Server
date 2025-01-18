@@ -1,717 +1,732 @@
 {
-  "Users": [
-    {
-      "id": "53b8",
-      "username": "Admin",
-      "name":null,
-      "surname":null,
-      "email": "admin@gmail.com",
-      "password": "admin",
-      "country": "Italia",
-      "city": "Barge",
-      "address": "Molini 3",
-      "phoneNumber":null,
-      "cardNumber":null,
-      "cardName":null,
-      "cvv":null,
-      "expirationDate":null,
-      "profileImageSrc":"https://i.ibb.co/VmXdxSj/admin-Avatar.png",
-      "acceptedTerms":false,
-      "shoppingCart": [
-      ],
-      "purchaseHistory":[
-        
-      ]
-    }
-  ],
-  "Shop": [
-    {
-      "id": "P1",
-      "bestSeller": true,
-      "name": "Blur Hockey Crewneck Forest",
-      "type": "felpa",
-      "price": 140.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/1567S0G5/thumbnails1.webp",
-        "https://i.postimg.cc/RFN7k2PB/thumbnails2.webp",
-        "https://i.postimg.cc/RCJ1X561/thumbnails3.webp",
-        "https://i.postimg.cc/ZnNrRpts/thumbnails4.webp",
-        "https://i.postimg.cc/859RNw3r/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        false,
-        true,
-        true,
-        false
-      ],
-      "details": "Con il GOAT dello streaming italiano al nostro fianco, la linea GOAT si ingrandisce.<br><br>Autunno / Inverno<br><br>• Toppe ricamate davanti e dietro<br>• Ricami sulle spalle<br>• Stampa transfer sul polso<br>• Etichetta GOAT<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>• Tessuto corpo: 70% cotone 30% poliestere<br>• Tessuto degli inserti: 100% rete di poliestere<br><br>Lavaggio a 30°",
-      "keyWords": "felpe felpa crewneck blur hockey forest autunno inverno goat ricami jersey garzato abbigliamento streetwear"
-    },
-    {
-      "id": "P2",
-      "bestSeller": true,
-      "name": "Prestige Master Bomber Forest",
-      "type": "giacca",
-      "price": 250.00,
-      "salePrice": 200.00,
-      "picture": [
-        "https://i.postimg.cc/yx6DqR6S/thumbnails1.webp",
-        "https://i.postimg.cc/XJbZ8hTL/thumbnails2.webp",
-        "https://i.postimg.cc/y823JWjw/thumbnails3.webp",
-        "https://i.postimg.cc/ydyDrjKH/thumbnails4.webp",
-        "https://i.postimg.cc/k586W9hD/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "details": "Ricordi i Prestige? È arrivato il tuo momento, bastardo nostalgico. Diventa il Maestro.<br><br>Autunno / Inverno<br><br>• Reversibile<br>• Stampa riflettente, strisce di nylon con stampa 3D sul lato 1<br>• Stampa 3D in gomma, serigrafia e tasca frontale sul lato 2<br><br>Vestibilità regolare<br><br>• Tessuto del guscio: 100% poliestere<br>• Fodera: 100% poliestere<br>• Imbottitura: 100% poliestere<br><br>Lavaggio a 30°",
-      "keyWords": "call of duty giacca giacche bomber prestige master bomber forest prestige autunno inverno reversibile stampa 3D serigrafia abbigliamento tecnico"
-    },
-    {
-      "id": "P3",
-      "bestSeller": true,
-      "name": "Blur King pattern shirt beige",
-      "type": "camicia",
-      "price": 90.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/GtShZSSZ/thumbnails1.webp",
-        "https://i.postimg.cc/90fQgj1d/thumbnails2.webp",
-        "https://i.postimg.cc/zB8BWhgP/thumbnails3.webp"
-      ],
-      "size": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "details": "Il caldo messicano ha ispirato Blur e noi a creare il perfetto outfit estivo.<br> Abbinatelo ai pantaloncini da bagno: la festa in piscina non sarà più la stessa.<br><br>• 4 ways stretch<br>• Trattamento W/R<br>• Stampa sublimata allover<br><br>Vestibilità regolare<br><br>95% poliestere 5% elastan<br><br>Lavaggio a 30°",
-      "keyWords":"camicia camicie blur king pattern shirt beige abbigliamento estivo outfit piscina stretch stampa sublimata camicia casual"
-    },
-    {
-      "id": "P4",
-      "bestSeller": false,
-      "name": "Tomioka Giyu Tee White",
-      "type": "t-shirt",
-      "price": 55.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/76HHbyFF/thumbnails1.webp",
-        "https://i.postimg.cc/rw4FPjGP/thumbnails2.webp",
-        "https://i.postimg.cc/FKgF9KBb/thumbnails3.webp",
-        "https://i.postimg.cc/Xv07S5Q7/thumbnails4.webp"
-      ],
-      "size": [
-        true,
-        false,
-        true,
-        true,
-        true
-      ],
-      "details": "Tra i nove pilastri, Giyu si distingue per dire meno e uccidere di più.<br><br>• Ricamo frontale<br>• Stampa serigrafica<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°",
-      "keyWords": "maglia maglie t-shirt tomioka giyu demon slayer anime maglia bianca cotone 100% ricamo frontale serigrafia"
-    },
-    {
-      "id": "P5",
-      "bestSeller": false,
-      "name": "Black Ops Easy Cargo Pants",
-      "type": "pantalone",
-      "price": 110.00,
-      "salePrice": 89.99,
-      "picture": [
-        "https://i.postimg.cc/1zPPYQ38/thumbnails1.webp",
-        "https://i.postimg.cc/SN2yndPx/thumbnails2.webp",
-        "https://i.postimg.cc/RVkvKfrQ/thumbnails3.webp",
-        "https://i.postimg.cc/wxbqxZ0r/thumbnails4.webp",
-        "https://i.postimg.cc/NjRB4MBh/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        false,
-        true,
-        false,
-        false
-      ],
-      "details": "Questi pantaloni Black Ops non ti renderanno un professionista, ma ti faranno sembrare tale.<br><br>• Stampa a trasferimento<br>• Etichetta tessuta<br><br>Vestibilità regolare<br><br>100% cotone antistrappo<br><br>Lavaggio a 30°",
-      "keyWords":"call of duty pantaloni pantalone black ops cargo antistrappo cotone abbigliamento tecnico streetwear tasche multiple"
-    },
-    {
-      "id": "P6",
-      "bestSeller": true,
-      "name": "Attack Titan Sweater Black",
-      "type": "felpa",
-      "price": 120.00,
-      "salePrice": 85.99,
-      "picture": [
-        "https://i.postimg.cc/437f95y5/thumbnails1.webp",
-        "https://i.postimg.cc/13z59PZb/thumbnails2.webp",
-        "https://i.postimg.cc/d1CVzBK1/thumbnails3.webp",
-        "https://i.postimg.cc/7hyZD2xN/thumbnails4.webp",
-        "https://i.postimg.cc/bwFYrMyr/thumbnails5.webp",
-        "https://i.postimg.cc/gkm2T8tz/thumbnails6.webp"
-      ],
-      "size": [
-        false,
-        false,
-        false,
-        false,
-        true
-      ],
-      "details": "La libertà è qualcosa per cui devi lottare, piuttosto che qualcosa<br> che ti viene dato. L'Attack Titan incarna quella lotta per la liberazione.<br><br>Autunno/Inverno<br><br>• Disegno jacquard<br><br>Vestibilità regolare<br><br>100% Dralon<br><br>Lavaggio a 30°",
-      "keyWords":"felpa felpex attack titan manga felpa nera jacquard dralon autunno inverno streetwear"
-    },
-    {
-      "id": "P7",
-      "bestSeller": true,
-      "name": "Dragon Knot LT Shell Jacket",
-      "type": "giacca",
-      "price": 165.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/43V30PG3/thumbnails1.webp",
-        "https://i.postimg.cc/J7qsmpkD/thumbnails2.webp",
-        "https://i.postimg.cc/vBymwn8t/thumbnails3.webp",
-        "https://i.postimg.cc/Jz9nKg9g/thumbnails4.webp",
-        "https://i.postimg.cc/W4CHdmq0/thumbnails5.jpg"
-      ],
-      "size": [
-        true,
-        false,
-        true,
-        false,
-        true
-      ],
-      "details": "Senza inizio né fine, il nodo celtico simboleggia l’interconnessione di tutte le cose,<br> intrecciando passato, presente e futuro.<br> Un emblema senza tempo di patrimonio, unità ed eternità.<br><br>Autunno/Inverno<br><br>• Strisce di nylon<br>• Patch metallica spazzolata sul davanti<br>• Pulsanti con logo<br>• Fodera stampa digitale all-over<br>• Serigrafia sul retro<br><br>Vestibilità regolare<br><br>Tessuto esterno: tela di cotone 100%.<br>Tessuto della fodera: 100% poliestere<br><br>Lavaggio a 30°",
-      "keyWords": "giacca giacche dragon knot nodo celtico autunno inverno nylon patch metallica stampa digitale serigrafia"
-    },
-    {
-      "id": "P8",
-      "bestSeller": false,
-      "name": "Kamado Tanjiro Bomber",
-      "type": "bomber",
-      "price": 215.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/nV4ntrN3/thumbnails1.webp",
-        "https://i.postimg.cc/C5gYqpnC/thumbnails2.webp",
-        "https://i.postimg.cc/SxTytPHq/thumbnails3.webp",
-        "https://i.postimg.cc/fbVw4Khd/thumbnails4.webp",
-        "https://i.postimg.cc/767whZhY/thumbnails5.webp",
-        "https://i.postimg.cc/d3jFRNGb/thumbnails6.webp"
-      ],
-      "size": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "details": "L'haori a scacchi di Tanjiro è così iconico che potrebbe uccidere i demoni da solo.<br><br>• Reversibile<br>• Ricami sul lato 1<br>• Stampa digitale allover sul lato 2<br><br>Vestibilità regolare<br><br>Tessuto 100% poliestere, imbottitura 100% poliestere<br><br>Lavaggio a 30°",
-      "keyWords":"bomber kamado tanjiro demon slayer reversibile ricami stampa digitale autunno inverno imbottito"
-    },
-    {
-      "id": "P9",
-      "bestSeller": false,
-      "name": "Jhin Assassin's Gilet",
-      "type": "gilet",
-      "price": 150.00,
-      "salePrice": 99.99,
-      "picture": [
-        "https://i.postimg.cc/SNC09xWw/thumbnails1.webp",
-        "https://i.postimg.cc/nzCghFFS/thumbnails2.webp",
-        "https://i.postimg.cc/44rkn9h6/thumbnails3.webp",
-        "https://i.postimg.cc/kGRckDJ9/thumbnails4.webp",
-        "https://i.postimg.cc/QMNvvgR3/thumbnails5.webp",
-        "https://i.postimg.cc/XXM833q5/thumbnails6.webp"
-      ],
-      "size": [
-        true,
-        true,
-        false,
-        true,
-        false
-      ],
-      "details": "Indossate l'arte dell'assassinio con un completo ispirato a Jhin,<br>dove ogni pezzo riecheggia la bellezza meticolosa delle sue performance oscure.<br><br>• Ricamo anteriore e posteriore<br>• Stampa plastisol anteriore e posteriore<br>• Stampa posteriore in pvc oro<br><br>Vestibilità regolare<br><br>Tessuto del corpo: 100% cotone gabardine<br>Tessuto della fodera: 100% Poliestere<br><br>Lavaggio a 30°",
-      "keyWords": "gilet jhin assassin ricami stampa plastisol cotone gabardine abbigliamento ispirato streetwear"
-    },
-    {
-      "id": "P10",
-      "bestSeller": false,
-      "name": "Racing Jacket Black",
-      "type": "giacca",
-      "price": 385.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/Pf6bMWMD/thumbnails1.webp",
-        "https://i.postimg.cc/4dP6qVkr/thumbnails2.webp",
-        "https://i.postimg.cc/bNsxVZ6B/thumbnails3.webp",
-        "https://i.postimg.cc/YSfYLY9h/thumbnails4.webp",
-        "https://i.postimg.cc/jdmzpRmd/thumbnails5.webp",
-        "https://i.postimg.cc/Y0S6H0tj/thumbnails6.webp"
-      ],
-      "size": [
-        true,
-        true,
-        false,
-        true,
-        false
-      ],
-      "details": "Giacca ispirata al mondo Nascar, arricchita da una miriade<br>di toppe e ricami che richiamano l'universo delle corse.<br><br>Autunno / Inverno<br><br>• Piping reflective su colletto e spalle<br>• Patches ricamate su fronte, retro e spalle<br><br>Il prodotto veste regular<br><br>100% Canvas di cotone, fodera 100% Poliestere satinato<br><br>Lavaggio 30°",
-      "keyWords": "giacca giacche racing nascar toppe ricamate riflettente canvas cotone autunno inverno giacca sportiva"
-    },
-    {
-      "id": "P11",
-      "bestSeller": true,
-      "name": "Billy GOAT Satin Jacket Navy",
-      "type": "giacca",
-      "price": 169.00,
-      "salePrice": 65.00,
-      "picture": [
-        "https://i.postimg.cc/50HVXq9V/thumbnails1.webp",
-        "https://i.postimg.cc/fRwQchW5/thumbnails2.webp",
-        "https://i.postimg.cc/66vKw01V/thumbnails3.webp",
-        "https://i.postimg.cc/kXPm5bk0/thumbnails4.webp",
-        "https://i.postimg.cc/NMWwm9Lr/thumbnails5.webp",
-        "https://i.postimg.cc/tJWG5qVv/thumbnails6.webp"
-      ],
-      "size": [
-        true,
-        false,
-        false,
-        true,
-        false
-      ],
-      "details": "Giacca varsity satinata firmata DLYNR GOAT.<br> Tagli attraenti, toppe ricamate e in tessuto spugna,<br> una buona dose di arroganza sportiva per il tuo outfit. <br> Primavera / Estate <br> • Toppa ricamata davanti e dietro <br> • Toppa effetto spugna sulla parte anteriore <br> • Tasche con zip <br> Vestibilità oversize <br> 100% Poliestere con finitura satinata <br> Lavaggio a 30°",
-      "keyWords":"giacca giacche billy goat satin varsity oversize patch ricamati sportiva primavera estate"
-    },
-    {
-      "id": "P12",
-      "bestSeller": true,
-      "name": "Leshen Dark Chemical Hoodie",
-      "type": "felpa",
-      "price": 109.00,
-      "salePrice": 89.00,
-      "picture": [
-        "https://i.postimg.cc/prhLtM5K/thumbnails1.webp",
-        "https://i.postimg.cc/Y9yCVC0p/thumbnails2.webp",
-        "https://i.postimg.cc/xCddtz0x/thumbnails3.webp",
-        "https://i.postimg.cc/vTJHY25k/thumbnails4.webp"
-      ],
-      "size": [
-        true,
-        false,
-        false,
-        true,
-        true
-      ],
-      "details": "Un omaggio al bosco, che rappresenta i colori e gli elementi della natura<br><br>Autunno / Inverno<br><br>• Stampa digitale alllover<br>• Etichetta frontale<br>• Dots coulisse<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
-      "keyWords":"felpa felpe leshen hoodie natura autunno inverno stampa digitale jersey garzato cotone poliestere"
-    },
-    {
-      "id": "P13",
-      "bestSeller": false,
-      "name": "Logo Brew Label Zip Hoodie",
-      "type": "felpa",
-      "price": 115.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/ZnTXr84n/thumbnails1.webp",
-        "https://i.postimg.cc/rsQ3gDwJ/thumbnails2.webp",
-        "https://i.postimg.cc/7YZphnKQ/thumbnails3.webp",
-        "https://i.postimg.cc/nVkynPGD/thumbnails4.webp"
-      ],
-      "size": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "details": "Brew Label Dolly Noire: Per quando<br> la vostra birra deve essere in linea con il vostro outfit<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Jersey non garzato<br<br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
-      "keyWords":"felpa felpe brew label hoodie zip primavera estate jersey serigrafia cotone poliestere streetwear"
-    },
-    {
-      "id": "P14",
-      "bestSeller": true,
-      "name": "THE TRUTH LIES Hoodie Black",
-      "type": "felpa",
-      "price": 99.99,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/fbzqLxjR/thumbnails1.webp",
-        "https://i.postimg.cc/9MzxPCk3/thumbnails2.webp",
-        "https://i.postimg.cc/mrmXFt8N/thumbnails3.webp",
-        "https://i.postimg.cc/RZQb4PtY/thumbnails4.webp",
-        "https://i.postimg.cc/zBMx04my/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        false,
-        false,
-        true,
-        true
-      ],
-      "details": "A chi crederai?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica anteriore e posteriore<br>• Cuciture a contrasto<br>• Etichetta in tessuto<br>• Dotted coulisse<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>65% Cotone 35% Poliestere<br><br>Lavaggio a 30°",
-      "keyWords":"felpa felpe hoodie the truth lies autunno inverno streetwear serigrafia jersey garzato abbigliamento casual"
-    },
-    {
-      "id": "P15",
-      "bestSeller": false,
-      "name": "Darius Hoodie Black",
-      "type": "felpa",
-      "price": 99.99,
-      "salePrice": 59.00,
-      "picture": [
-        "https://i.postimg.cc/6pwYjdPf/thumbnails1.webp",
-        "https://i.postimg.cc/X79sk2sv/thumbnails2.webp",
-        "https://i.postimg.cc/Nj4bWKqq/thumbnails3.webp",
-        "https://i.postimg.cc/SKxVqmkX/thumbnails4.webp",
-        "https://i.postimg.cc/W4Y81x15/thumbnails5.jpg"
-      ],
-      "size": [
-        true,
-        false,
-        false,
-        true,
-        true
-      ],
-      "details": "Con la sua possente ghigliottina noxiana, Darius fa a pezzi i nemici,<br> incarnando una potenza cruda e inarrestabile. Darius sarà il vostro campione?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica fronte e retro<br>• Stampa frontale e posteriore in pvc oro<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
-      "keyWords":"felpa felpe darius hoodie black inverno autunno jersey cotone poliestere stampa serigrafica noxiana"
-    },
-    {
-      "id": "P16",
-      "bestSeller": true,
-      "name": "Kamado Tanjiro Sweatpants",
-      "type": "pantalone",
-      "price": 126.99,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/dtcB32Jc/thumbnails1.webp",
-        "https://i.postimg.cc/MThYyRRR/thumbnails2.webp",
-        "https://i.postimg.cc/FRfZdGfN/thumbnails3.webp",
-        "https://i.postimg.cc/nrBGTzYW/thumbnails5.webp"
-      ],
-      "size": [
-        false,
-        false,
-        false,
-        true,
-        true
-      ],
-      "details": "L'haori a scacchi di Tanjiro è così iconico che<br> potrebbe uccidere i demoni da solo.<br><br>Primavera / Estate<br><br>• Jersey non garzato<br><br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
-      "keyWords": "sweatpants pantalone pantaloni casual Kamado Tanjiro Demon Slayer abbigliamento anime haori a scacchi primavera estate abbigliamento cotone pantaloni comodi stile casual moda giapponese vestiti ispirati anime cotone poliestere lavaggio a 30 gradi abbigliamento autunno inverno pantaloni Tanjiro outfit streetwear pantaloni da uomo pantaloni unisex"
-
-    },
-    {
-      "id": "P17",
-      "bestSeller": true,
-      "name": "Cù-Sìth Sweatpants Black",
-      "type": "pantalone",
-      "price": 89.99,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/9fPV3tXX/thumbnails1.webp",
-        "https://i.postimg.cc/3RnTN8DP/thumbnails2.webp",
-        "https://i.postimg.cc/900jq6dz/thumbnails3.webp",
-        "https://i.postimg.cc/26zYCb3Q/thumbnails4.webp"
-      ],
-      "size": [
-        false,
-        false,
-        false,
-        true,
-        true
-      ],
-      "details": "Un ululato inquietante, un presagio di morte imminente.<br> Con i suoi occhi che brillano di conoscenza ultraterrena,<br> Cù-Sìth predice l'arrivo dell'inevitabile.<br><br>Autunno / Inverno<br><br>• Serigrafia fronte e retro<br>• Maglia spazzolata<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
-      "keyWords": "cù-sìth sweatpants pantalone pantaloni autunno inverno"
-
-    },
-    {
-      "id": "P18",
-      "bestSeller": true,
-      "name": "Denim Carpenter Pants Black",
-      "type": "pantalone",
-      "price": 120.99,
-      "salePrice": 90.00,
-      "picture": [
-        "https://i.postimg.cc/VsVxVH9B/thumbnails1.webp",
-        "https://i.postimg.cc/C5zWKj0q/thumbnails2.webp",
-        "https://i.postimg.cc/d1QbzbSn/thumbnails3.webp",
-        "https://i.postimg.cc/NMN3Yd3t/thumbnails4.webp",
-        "https://i.postimg.cc/28LsRF2p/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "details": "Dal martellare chiodi all'andare per strada,<br> questi carpenter pants vi coprono con comfort e stile.<br><br>• Gancio a martello<br>• Etichette tessute<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°",
-      "keyWords": "denim carpenter pants black pantalone pantaloni gancio martello etichette tessute vestibilità"
-    },
-    {
-      "id": "P19",
-      "bestSeller": false,
-      "name": "Desert Skull Sweatshorts Black",
-      "type": "pantalone",
-      "price": 59.99,
-      "salePrice": 49.00,
-      "picture": [
-        "https://i.postimg.cc/jqDx2fZc/thumbnails1.webp",
-        "https://i.postimg.cc/D09YyH59/thumbnails2.webp",
-        "https://i.postimg.cc/5NvfqVcF/thumbnails3.webp",
-        "https://i.postimg.cc/HWFpyLNg/thumbnails4.webp"
-      ],
-      "size": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "details": "L'iconico teschio di Dolly Noire reimmaginato come cyber-tuareg.<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br><br>Vestibilità regular<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
-      "keyWords": "desert skull sweatshorts black pantalone pantaloni primavera estate teschio"
-    },
-    {
-      "id": "P20",
-      "bestSeller": false,
-      "name": "Cotton Ripstop Laced Easy Cargo",
-      "type": "pantalone",
-      "price": 99.99,
-      "salePrice": 59.00,
-      "picture": [
-        "https://i.postimg.cc/6qZx0dPN/thumbnails1.webp",
-        "https://i.postimg.cc/QNKDh3dn/thumbnails2.webp",
-        "https://i.postimg.cc/vBkdfP3z/thumbnails3.webp",
-        "https://i.postimg.cc/WbRv4HDp/thumbnails4.webp"
-      ],
-      "size": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "details": "DLYNR Cargo ripstop, sei più un tipo da fondo stretto, o largo?<br> Ora sei libero di decidere<br><br>• 100% cotone ripstop<br>• Etichetta tessuta<br>• Lacci alla caviglia<br>• Stampa serigrafica<br>• Vestibilità regular<br><br>Lavare a 30°",
-      "keyWords": "cotton ripstop laced easy cargo pantalone pantaloni cotone"
-    },
-    {
-      "id": "P21",
-      "bestSeller": true,
-      "name": "ENCH Tokyo Bowling Shirt",
-      "type": "camicia",
-      "price": 95.99,
-      "salePrice": 52.00,
-      "picture": [
-        "https://i.postimg.cc/q7NbypYP/thumbnails1.webp",
-        "https://i.postimg.cc/767KtmqX/thumbnails2.webp",
-        "https://i.postimg.cc/0NhtCL1b/thumbnails3.webp",
-        "https://i.postimg.cc/prHqwzTv/thumbnails4.webp",
-        "https://i.postimg.cc/XqkQ4qGC/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        false,
-        false,
-        false,
-        true
-      ],
-      "details": "DLYNR onora ancora una volta la cultura asiatica.<br> La serie BENCH continua con la Pagoda: una delle più famose architetture asiatiche.<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Etichetta Bench<br><br>Vestibilità regular<br><br>100% cotone Popeline<br><br>Lavaggio a 30°",
-      "keyWords": "ench tokyo bowling shirt camicia camicie stampa serigrafica"
-
-    },
-    {
-      "id": "P22",
-      "bestSeller": true,
-      "name": "Leshen, giacca imbottita",
-      "type": "giacca",
-      "price": 260.00,
-      "salePrice": 235.00,
-      "picture": [
-        "https://i.postimg.cc/ncLvC0N5/thumbnails1.webp",
-        "https://i.postimg.cc/ZnwpwdvV/thumbnails2.webp",
-        "https://i.postimg.cc/cCxf7mCv/thumbnails3.webp",
-        "https://i.postimg.cc/1RBGmL7w/thumbnails4.webp",
-        "https://i.postimg.cc/yYr090HN/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        false,
-        true,
-        true,
-        false
-      ],
-      "details": "Un omaggio al bosco, che rappresenta i colori<br> e gli elementi della natura. Rivestimento in TPU<br><br>autunno/inverno<br><br>• Stampa digitale allover<br>• Etichetta frontale con logo in gomma 3D<br>• Vestibilità regolare<br>• Tessuto esterno: 100% poliestere<br>• Imbottitura: 100% poliestere 400 gsm <br><br>Lavaggio a 30",
-      "keyWords": "leshen giacca giacche outdoor autunno inverno"
-    },
-    {
-      "id": "P23",
-      "bestSeller": false,
-      "name": "Dune Bowling Shirt Brown",
-      "type": "camicia",
-      "price": 97.00,
-      "salePrice": 0,
-      "picture": [
-        "https://i.postimg.cc/W4SNF6BW/thumbnails1.webp",
-        "https://i.postimg.cc/s23fg0NG/thumbnails2.webp",
-        "https://i.postimg.cc/j2nt1VLm/thumbnails3.webp",
-        "https://i.postimg.cc/hjjS9QgS/thumbnails4.webp",
-        "https://i.postimg.cc/1Rbq3scg/thumbnails5.webp"
-      ],
-      "size": [
-        true,
-        false,
-        true,
-        true,
-        true
-      ],
-      "details": "I venti del deserto scolpiscono le dune di Shirìn,<br> le loro linee sono una testimonianza della resilienza della natura di fronte alla devastazione.<br><br>Primavera / Estate<br><br>• Tasche in rete di poliestere<br>• Anello a D<br>• Stampa digitale<br><br>Vestibilità regolare<br><br>100% cotone Popeline<br><br>Lavaggio a 30°",
-      "keyWords": "camicia camice bowling camicie dune brown autunno"
-    },
-    {
-    "id": "P24",
-    "bestSeller": false,
-    "name": "GOAT Hockey Hoodie Plus Yellow",
-    "type": "felpa",
-    "price": 185.00,
-    "salePrice": 0,
-    "picture": [
-      "https://i.postimg.cc/0NS4h8fp/thumbnails1.jpgp",
-      "https://i.postimg.cc/BbSw82Gg/thumbnails2.jpg",
-      "https://i.postimg.cc/j5r1bGgB/thumbnails3.jpg",
-      "https://i.postimg.cc/0yF3t6pk/thumbnails4.jpg"
+    "Users": [
+        {
+            "id": "53b8",
+            "username": "Admin",
+            "name": null,
+            "surname": null,
+            "email": "admin@gmail.com",
+            "password": "admin",
+            "country": "Italia",
+            "city": "Barge",
+            "address": "Molini 3",
+            "phoneNumber": null,
+            "cardNumber": null,
+            "cardName": null,
+            "cvv": null,
+            "expirationDate": null,
+            "profileImageSrc": "https://i.ibb.co/VmXdxSj/admin-Avatar.png",
+            "acceptedTerms": false,
+            "shoppingCart": [],
+            "purchaseHistory": []
+        }
     ],
-    "size": [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    "details": "Una versione rivisitata della classica felpa DLYNR GOAT.<br>Tagli dinamici, design rinnovato.<br><br>Autunno / Inverno<br><br>70% cotone 30% poliestere",
-    "keyWords": "felpa felpe goat inverno autunno yellow giallo hoodie"
-  },
-  {
-    "id": "P25",
-    "bestSeller": false,
-    "name": "Leshen Hoodie Brown",
-    "type": "felpa",
-    "price": 92.00,
-    "salePrice": 0,
-    "picture": [
-      "https://i.postimg.cc/8cvBz57H/thumbnails1.jpg",
-      "https://i.postimg.cc/KzwDbL8j/thumbnails2.jpg"
-    ],
-    "size": [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    "details": "Mostrando la sua duplice natura di protettore e di maligno imbroglione,<br> il Leshen ricorda all'uomo le conseguenze del mancato rispetto o del maltrattamento<br> della natura e l'importanza di mantenere un rapporto armonioso con l'ambiente.<br><br>Autunno / Inverno<br><br>• Stampa serigrafica sul fronte e sul retro<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>65% cotone 35% poliestere<br><br>Lavaggio a 30°",
-    "keyWords": "felpa felpe leshen inverno autunno marrone brown hoodie"
-  },
-  {
-    "id": "P26",
-    "bestSeller": true,
-    "name": "Medusa Hoodie White",
-    "type": "felpa",
-    "price": 105.00,
-    "salePrice": 82.00,
-    "picture": [
-      "https://i.postimg.cc/g2hFbqcX/thumbnails1.jpg",
-      "https://i.postimg.cc/QxwGznDZ/thumbnails2.jpg"
-    ],
-    "size": [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    "details": "Grafica best seller Mythos SS17,<br> l'iconica creatura mitologica torna in tutto il suo splendore.<br><br>• Stampa serigrafica<br>• Sfoderato<br><br>Vestibilità regular<br><br>100% cotone<br><br>Lavaggio a 30°",
-    "keyWords": "felpa felpe medusa inverno autunno bianco bianca white hoodie"
-  },
-  {
-    "id": "P27",
-    "bestSeller": true,
-    "name": "Celtic Ties Interlock Hoodie",
-    "type": "felpa",
-    "price": 105.00,
-    "salePrice": 82.00,
-    "picture": [
-      "https://i.postimg.cc/cJWjqp52/thumbnails1.jpg",
-      "https://i.postimg.cc/635mqdKh/thumbnails2.jpg",
-      "https://i.postimg.cc/1tCYqf51/thumbnails3.jpg",
-      "https://i.postimg.cc/4310XWDd/thumbnails4.jpg"
-    ],
-    "size": [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    "details": "Spesso caratterizzati da cicli infiniti senza inizio né fine,<br> questi motivi decorativi riflettono i temi dell'unità,<br> della continuità e delle profonde connessioni tra il mondo spirituale e quello fisico nella cultura celtica.<br><br>Autunno / Inverno<br><br>• Interlock jacquard<br>• Ricamo sul polso<br><br>Vestibilità regolare<br><br>56% Poliestere 40% Viscosa 4% Elastane<br><br>Lavaggio a 30°",
-    "keyWords": "felpa felpe celtic ties celtico inverno autunno interlock rosso rossa red bordeaux marrone brown hoodie"
-  },
-  {
-    "id": "P28",
-    "bestSeller": false,
-    "name": "Celtic Ties Interlock Sweatpants",
-    "type": "pantalone",
-    "price": 90.00,
-    "salePrice": 0,
-    "picture": [
-      "https://i.postimg.cc/13X08JVX/thumbnails1.jpg",
-      "https://i.postimg.cc/RZY7KKwR/thumbnails2.jpg",
-      "https://i.postimg.cc/SKzWrRrp/thumbnails3.jpg",
-      "https://i.postimg.cc/Pxs1FH3v/thumbnails4.jpg",
-      "https://i.postimg.cc/kG7Kqcdn/thumbnails5.jpg",
-      "https://i.postimg.cc/NM6m3nSJ/thumbnails6.jpg"
-    ],
-    "size": [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    "details": "Spesso caratterizzati da cicli infiniti senza inizio né fine,<br> questi motivi decorativi riflettono i temi dell'unità, della continuità<br> e delle profonde connessioni tra il mondo spirituale e quello fisico nella cultura celtica.<br><br>Autunno / Inverno<br><br>• Interlock jacquard<br>• Ricamo frontale<br><br>Vestibilità regolare<br><br>56% Poliestere 40% Viscosa 4% Elastan<br><br>Lavaggio a 30°",
-    "keyWords": "pantaloni pantalone celtic ties celtico inverno autunno interlock rosso rossa red bordeaux marrone brown sweatpants"
-  },
-     {
-    "id": "P29",
-    "bestSeller": true,
-    "name": "Ryu Dragon Sweatpants Black",
-    "type": "pantalone",
-    "price": 134.00,
-    "salePrice": 67.90,
-    "picture": [
-      "https://i.postimg.cc/RVvnSxrk/thumbnails1.webp",
-      "https://i.postimg.cc/qqxhsjKD/thumbnails2.webp",
-      "https://i.postimg.cc/0QmJQ8ys/thumbnails3.webp",
-      "https://i.postimg.cc/BZTKfQz5/thumbnails4.webp",
-      "https://i.postimg.cc/Fz4kk2YJ/thumbnails5.webp"
-    ],
-    "size": [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    "details": "Best Seller DLYNR FW22, il Drago Ryu fa ritorno.<br><br>Autunno / Inverno<br><br>• Stampa serigrafica su fronte, retro e gambe<br><br>Il prodotto veste regular<br><br>65% Cotone 35% Poliestere<br><br>Lavaggio 30°",
-    "keyWords": "pantaloni pantalone ryu dragon sweatpants black inverno autunno rosso red bordeaux marrone brown sweatpants"
-  }
-  ]
+    "Shop": [
+        {
+            "id": "P1",
+            "bestSeller": true,
+            "name": "Blur Hockey Crewneck Forest",
+            "type": "felpa",
+            "price": 140.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/1567S0G5/thumbnails1.webp",
+                "https://i.postimg.cc/RFN7k2PB/thumbnails2.webp",
+                "https://i.postimg.cc/RCJ1X561/thumbnails3.webp",
+                "https://i.postimg.cc/ZnNrRpts/thumbnails4.webp",
+                "https://i.postimg.cc/859RNw3r/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                false,
+                true,
+                true,
+                false
+            ],
+            "details": "Con il GOAT dello streaming italiano al nostro fianco, la linea GOAT si ingrandisce.<br><br>Autunno / Inverno<br><br>• Toppe ricamate davanti e dietro<br>• Ricami sulle spalle<br>• Stampa transfer sul polso<br>• Etichetta GOAT<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>• Tessuto corpo: 70% cotone 30% poliestere<br>• Tessuto degli inserti: 100% rete di poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "felpe felpa crewneck blur hockey forest autunno inverno goat ricami jersey garzato abbigliamento streetwear"
+        },
+        {
+            "id": "P2",
+            "bestSeller": true,
+            "name": "Prestige Master Bomber Forest",
+            "type": "giacca",
+            "price": 250.00,
+            "salePrice": 200.00,
+            "picture": [
+                "https://i.postimg.cc/yx6DqR6S/thumbnails1.webp",
+                "https://i.postimg.cc/XJbZ8hTL/thumbnails2.webp",
+                "https://i.postimg.cc/y823JWjw/thumbnails3.webp",
+                "https://i.postimg.cc/ydyDrjKH/thumbnails4.webp",
+                "https://i.postimg.cc/k586W9hD/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "Ricordi i Prestige? È arrivato il tuo momento, bastardo nostalgico. Diventa il Maestro.<br><br>Autunno / Inverno<br><br>• Reversibile<br>• Stampa riflettente, strisce di nylon con stampa 3D sul lato 1<br>• Stampa 3D in gomma, serigrafia e tasca frontale sul lato 2<br><br>Vestibilità regolare<br><br>• Tessuto del guscio: 100% poliestere<br>• Fodera: 100% poliestere<br>• Imbottitura: 100% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "call of duty giacca giacche bomber prestige master bomber forest prestige autunno inverno reversibile stampa 3D serigrafia abbigliamento tecnico"
+        },
+        {
+            "id": "P3",
+            "bestSeller": true,
+            "name": "Blur King pattern shirt beige",
+            "type": "camicia",
+            "price": 90.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/GtShZSSZ/thumbnails1.webp",
+                "https://i.postimg.cc/90fQgj1d/thumbnails2.webp",
+                "https://i.postimg.cc/zB8BWhgP/thumbnails3.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "Il caldo messicano ha ispirato Blur e noi a creare il perfetto outfit estivo.<br> Abbinatelo ai pantaloncini da bagno: la festa in piscina non sarà più la stessa.<br><br>• 4 ways stretch<br>• Trattamento W/R<br>• Stampa sublimata allover<br><br>Vestibilità regolare<br><br>95% poliestere 5% elastan<br><br>Lavaggio a 30°",
+            "keyWords": "camicia camicie blur king pattern shirt beige abbigliamento estivo outfit piscina stretch stampa sublimata camicia casual"
+        },
+        {
+            "id": "P4",
+            "bestSeller": false,
+            "name": "Tomioka Giyu Tee White",
+            "type": "t-shirt",
+            "price": 55.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/76HHbyFF/thumbnails1.webp",
+                "https://i.postimg.cc/rw4FPjGP/thumbnails2.webp",
+                "https://i.postimg.cc/FKgF9KBb/thumbnails3.webp",
+                "https://i.postimg.cc/Xv07S5Q7/thumbnails4.webp"
+            ],
+            "size": [
+                true,
+                false,
+                true,
+                true,
+                true
+            ],
+            "details": "Tra i nove pilastri, Giyu si distingue per dire meno e uccidere di più.<br><br>• Ricamo frontale<br>• Stampa serigrafica<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°",
+            "keyWords": "maglia maglie t-shirt tomioka giyu demon slayer anime maglia bianca cotone 100% ricamo frontale serigrafia"
+        },
+        {
+            "id": "P5",
+            "bestSeller": false,
+            "name": "Black Ops Easy Cargo Pants",
+            "type": "pantalone",
+            "price": 110.00,
+            "salePrice": 89.99,
+            "picture": [
+                "https://i.postimg.cc/1zPPYQ38/thumbnails1.webp",
+                "https://i.postimg.cc/SN2yndPx/thumbnails2.webp",
+                "https://i.postimg.cc/RVkvKfrQ/thumbnails3.webp",
+                "https://i.postimg.cc/wxbqxZ0r/thumbnails4.webp",
+                "https://i.postimg.cc/NjRB4MBh/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                false,
+                true,
+                false,
+                false
+            ],
+            "details": "Questi pantaloni Black Ops non ti renderanno un professionista, ma ti faranno sembrare tale.<br><br>• Stampa a trasferimento<br>• Etichetta tessuta<br><br>Vestibilità regolare<br><br>100% cotone antistrappo<br><br>Lavaggio a 30°",
+            "keyWords": "call of duty pantaloni pantalone black ops cargo antistrappo cotone abbigliamento tecnico streetwear tasche multiple"
+        },
+        {
+            "id": "P6",
+            "bestSeller": true,
+            "name": "Attack Titan Sweater Black",
+            "type": "felpa",
+            "price": 120.00,
+            "salePrice": 85.99,
+            "picture": [
+                "https://i.postimg.cc/437f95y5/thumbnails1.webp",
+                "https://i.postimg.cc/13z59PZb/thumbnails2.webp",
+                "https://i.postimg.cc/d1CVzBK1/thumbnails3.webp",
+                "https://i.postimg.cc/7hyZD2xN/thumbnails4.webp",
+                "https://i.postimg.cc/bwFYrMyr/thumbnails5.webp",
+                "https://i.postimg.cc/gkm2T8tz/thumbnails6.webp"
+            ],
+            "size": [
+                false,
+                false,
+                false,
+                false,
+                true
+            ],
+            "details": "La libertà è qualcosa per cui devi lottare, piuttosto che qualcosa<br> che ti viene dato. L'Attack Titan incarna quella lotta per la liberazione.<br><br>Autunno/Inverno<br><br>• Disegno jacquard<br><br>Vestibilità regolare<br><br>100% Dralon<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpex attack titan manga felpa nera jacquard dralon autunno inverno streetwear"
+        },
+        {
+            "id": "P7",
+            "bestSeller": true,
+            "name": "Dragon Knot LT Shell Jacket",
+            "type": "giacca",
+            "price": 165.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/43V30PG3/thumbnails1.webp",
+                "https://i.postimg.cc/J7qsmpkD/thumbnails2.webp",
+                "https://i.postimg.cc/vBymwn8t/thumbnails3.webp",
+                "https://i.postimg.cc/Jz9nKg9g/thumbnails4.webp",
+                "https://i.postimg.cc/W4CHdmq0/thumbnails5.jpg"
+            ],
+            "size": [
+                true,
+                false,
+                true,
+                false,
+                true
+            ],
+            "details": "Senza inizio né fine, il nodo celtico simboleggia l’interconnessione di tutte le cose,<br> intrecciando passato, presente e futuro.<br> Un emblema senza tempo di patrimonio, unità ed eternità.<br><br>Autunno/Inverno<br><br>• Strisce di nylon<br>• Patch metallica spazzolata sul davanti<br>• Pulsanti con logo<br>• Fodera stampa digitale all-over<br>• Serigrafia sul retro<br><br>Vestibilità regolare<br><br>Tessuto esterno: tela di cotone 100%.<br>Tessuto della fodera: 100% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "giacca giacche dragon knot nodo celtico autunno inverno nylon patch metallica stampa digitale serigrafia"
+        },
+        {
+            "id": "P8",
+            "bestSeller": false,
+            "name": "Kamado Tanjiro Bomber",
+            "type": "bomber",
+            "price": 215.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/nV4ntrN3/thumbnails1.webp",
+                "https://i.postimg.cc/C5gYqpnC/thumbnails2.webp",
+                "https://i.postimg.cc/SxTytPHq/thumbnails3.webp",
+                "https://i.postimg.cc/fbVw4Khd/thumbnails4.webp",
+                "https://i.postimg.cc/767whZhY/thumbnails5.webp",
+                "https://i.postimg.cc/d3jFRNGb/thumbnails6.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "L'haori a scacchi di Tanjiro è così iconico che potrebbe uccidere i demoni da solo.<br><br>• Reversibile<br>• Ricami sul lato 1<br>• Stampa digitale allover sul lato 2<br><br>Vestibilità regolare<br><br>Tessuto 100% poliestere, imbottitura 100% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "bomber kamado tanjiro demon slayer reversibile ricami stampa digitale autunno inverno imbottito"
+        },
+        {
+            "id": "P9",
+            "bestSeller": false,
+            "name": "Jhin Assassin's Gilet",
+            "type": "gilet",
+            "price": 150.00,
+            "salePrice": 99.99,
+            "picture": [
+                "https://i.postimg.cc/SNC09xWw/thumbnails1.webp",
+                "https://i.postimg.cc/nzCghFFS/thumbnails2.webp",
+                "https://i.postimg.cc/44rkn9h6/thumbnails3.webp",
+                "https://i.postimg.cc/kGRckDJ9/thumbnails4.webp",
+                "https://i.postimg.cc/QMNvvgR3/thumbnails5.webp",
+                "https://i.postimg.cc/XXM833q5/thumbnails6.webp"
+            ],
+            "size": [
+                true,
+                true,
+                false,
+                true,
+                false
+            ],
+            "details": "Indossate l'arte dell'assassinio con un completo ispirato a Jhin,<br>dove ogni pezzo riecheggia la bellezza meticolosa delle sue performance oscure.<br><br>• Ricamo anteriore e posteriore<br>• Stampa plastisol anteriore e posteriore<br>• Stampa posteriore in pvc oro<br><br>Vestibilità regolare<br><br>Tessuto del corpo: 100% cotone gabardine<br>Tessuto della fodera: 100% Poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "gilet jhin assassin ricami stampa plastisol cotone gabardine abbigliamento ispirato streetwear"
+        },
+        {
+            "id": "P10",
+            "bestSeller": false,
+            "name": "Racing Jacket Black",
+            "type": "giacca",
+            "price": 385.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/Pf6bMWMD/thumbnails1.webp",
+                "https://i.postimg.cc/4dP6qVkr/thumbnails2.webp",
+                "https://i.postimg.cc/bNsxVZ6B/thumbnails3.webp",
+                "https://i.postimg.cc/YSfYLY9h/thumbnails4.webp",
+                "https://i.postimg.cc/jdmzpRmd/thumbnails5.webp",
+                "https://i.postimg.cc/Y0S6H0tj/thumbnails6.webp"
+            ],
+            "size": [
+                true,
+                true,
+                false,
+                true,
+                false
+            ],
+            "details": "Giacca ispirata al mondo Nascar, arricchita da una miriade<br>di toppe e ricami che richiamano l'universo delle corse.<br><br>Autunno / Inverno<br><br>• Piping reflective su colletto e spalle<br>• Patches ricamate su fronte, retro e spalle<br><br>Il prodotto veste regular<br><br>100% Canvas di cotone, fodera 100% Poliestere satinato<br><br>Lavaggio 30°",
+            "keyWords": "giacca giacche racing nascar toppe ricamate riflettente canvas cotone autunno inverno giacca sportiva"
+        },
+        {
+            "id": "P11",
+            "bestSeller": true,
+            "name": "Billy GOAT Satin Jacket Navy",
+            "type": "giacca",
+            "price": 169.00,
+            "salePrice": 65.00,
+            "picture": [
+                "https://i.postimg.cc/50HVXq9V/thumbnails1.webp",
+                "https://i.postimg.cc/fRwQchW5/thumbnails2.webp",
+                "https://i.postimg.cc/66vKw01V/thumbnails3.webp",
+                "https://i.postimg.cc/kXPm5bk0/thumbnails4.webp",
+                "https://i.postimg.cc/NMWwm9Lr/thumbnails5.webp",
+                "https://i.postimg.cc/tJWG5qVv/thumbnails6.webp"
+            ],
+            "size": [
+                true,
+                false,
+                false,
+                true,
+                false
+            ],
+            "details": "Giacca varsity satinata firmata DLYNR GOAT.<br> Tagli attraenti, toppe ricamate e in tessuto spugna,<br> una buona dose di arroganza sportiva per il tuo outfit. <br> Primavera / Estate <br> • Toppa ricamata davanti e dietro <br> • Toppa effetto spugna sulla parte anteriore <br> • Tasche con zip <br> Vestibilità oversize <br> 100% Poliestere con finitura satinata <br> Lavaggio a 30°",
+            "keyWords": "giacca giacche billy goat satin varsity oversize patch ricamati sportiva primavera estate"
+        },
+        {
+            "id": "P12",
+            "bestSeller": true,
+            "name": "Leshen Dark Chemical Hoodie",
+            "type": "felpa",
+            "price": 109.00,
+            "salePrice": 89.00,
+            "picture": [
+                "https://i.postimg.cc/prhLtM5K/thumbnails1.webp",
+                "https://i.postimg.cc/Y9yCVC0p/thumbnails2.webp",
+                "https://i.postimg.cc/xCddtz0x/thumbnails3.webp",
+                "https://i.postimg.cc/vTJHY25k/thumbnails4.webp"
+            ],
+            "size": [
+                true,
+                false,
+                false,
+                true,
+                true
+            ],
+            "details": "Un omaggio al bosco, che rappresenta i colori e gli elementi della natura<br><br>Autunno / Inverno<br><br>• Stampa digitale alllover<br>• Etichetta frontale<br>• Dots coulisse<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpe leshen hoodie natura autunno inverno stampa digitale jersey garzato cotone poliestere"
+        },
+        {
+            "id": "P13",
+            "bestSeller": false,
+            "name": "Logo Brew Label Zip Hoodie",
+            "type": "felpa",
+            "price": 115.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/ZnTXr84n/thumbnails1.webp",
+                "https://i.postimg.cc/rsQ3gDwJ/thumbnails2.webp",
+                "https://i.postimg.cc/7YZphnKQ/thumbnails3.webp",
+                "https://i.postimg.cc/nVkynPGD/thumbnails4.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "Brew Label Dolly Noire: Per quando<br> la vostra birra deve essere in linea con il vostro outfit<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Jersey non garzato<br<br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpe brew label hoodie zip primavera estate jersey serigrafia cotone poliestere streetwear"
+        },
+        {
+            "id": "P14",
+            "bestSeller": true,
+            "name": "THE TRUTH LIES Hoodie Black",
+            "type": "felpa",
+            "price": 99.99,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/fbzqLxjR/thumbnails1.webp",
+                "https://i.postimg.cc/9MzxPCk3/thumbnails2.webp",
+                "https://i.postimg.cc/mrmXFt8N/thumbnails3.webp",
+                "https://i.postimg.cc/RZQb4PtY/thumbnails4.webp",
+                "https://i.postimg.cc/zBMx04my/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                false,
+                false,
+                true,
+                true
+            ],
+            "details": "A chi crederai?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica anteriore e posteriore<br>• Cuciture a contrasto<br>• Etichetta in tessuto<br>• Dotted coulisse<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>65% Cotone 35% Poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpe hoodie the truth lies autunno inverno streetwear serigrafia jersey garzato abbigliamento casual"
+        },
+        {
+            "id": "P15",
+            "bestSeller": false,
+            "name": "Darius Hoodie Black",
+            "type": "felpa",
+            "price": 99.99,
+            "salePrice": 59.00,
+            "picture": [
+                "https://i.postimg.cc/6pwYjdPf/thumbnails1.webp",
+                "https://i.postimg.cc/X79sk2sv/thumbnails2.webp",
+                "https://i.postimg.cc/Nj4bWKqq/thumbnails3.webp",
+                "https://i.postimg.cc/SKxVqmkX/thumbnails4.webp",
+                "https://i.postimg.cc/W4Y81x15/thumbnails5.jpg"
+            ],
+            "size": [
+                true,
+                false,
+                false,
+                true,
+                true
+            ],
+            "details": "Con la sua possente ghigliottina noxiana, Darius fa a pezzi i nemici,<br> incarnando una potenza cruda e inarrestabile. Darius sarà il vostro campione?<br><br>Autunno / Inverno<br><br>• Stampa serigrafica fronte e retro<br>• Stampa frontale e posteriore in pvc oro<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpe darius hoodie black inverno autunno jersey cotone poliestere stampa serigrafica noxiana"
+        },
+        {
+            "id": "P16",
+            "bestSeller": true,
+            "name": "Kamado Tanjiro Sweatpants",
+            "type": "pantalone",
+            "price": 126.99,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/dtcB32Jc/thumbnails1.webp",
+                "https://i.postimg.cc/MThYyRRR/thumbnails2.webp",
+                "https://i.postimg.cc/FRfZdGfN/thumbnails3.webp",
+                "https://i.postimg.cc/nrBGTzYW/thumbnails5.webp"
+            ],
+            "size": [
+                false,
+                false,
+                false,
+                true,
+                true
+            ],
+            "details": "L'haori a scacchi di Tanjiro è così iconico che<br> potrebbe uccidere i demoni da solo.<br><br>Primavera / Estate<br><br>• Jersey non garzato<br><br>Vestibilità regolare<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "sweatpants pantalone pantaloni casual Kamado Tanjiro Demon Slayer abbigliamento anime haori a scacchi primavera estate abbigliamento cotone pantaloni comodi stile casual moda giapponese vestiti ispirati anime cotone poliestere lavaggio a 30 gradi abbigliamento autunno inverno pantaloni Tanjiro outfit streetwear pantaloni da uomo pantaloni unisex"
+        },
+        {
+            "id": "P17",
+            "bestSeller": true,
+            "name": "Cù-Sìth Sweatpants Black",
+            "type": "pantalone",
+            "price": 89.99,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/9fPV3tXX/thumbnails1.webp",
+                "https://i.postimg.cc/3RnTN8DP/thumbnails2.webp",
+                "https://i.postimg.cc/900jq6dz/thumbnails3.webp",
+                "https://i.postimg.cc/26zYCb3Q/thumbnails4.webp"
+            ],
+            "size": [
+                false,
+                false,
+                false,
+                true,
+                true
+            ],
+            "details": "Un ululato inquietante, un presagio di morte imminente.<br> Con i suoi occhi che brillano di conoscenza ultraterrena,<br> Cù-Sìth predice l'arrivo dell'inevitabile.<br><br>Autunno / Inverno<br><br>• Serigrafia fronte e retro<br>• Maglia spazzolata<br><br>Vestibilità regolare<br><br>70% cotone 30% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "cù-sìth sweatpants pantalone pantaloni autunno inverno"
+        },
+        {
+            "id": "P18",
+            "bestSeller": true,
+            "name": "Denim Carpenter Pants Black",
+            "type": "pantalone",
+            "price": 120.99,
+            "salePrice": 90.00,
+            "picture": [
+                "https://i.postimg.cc/VsVxVH9B/thumbnails1.webp",
+                "https://i.postimg.cc/C5zWKj0q/thumbnails2.webp",
+                "https://i.postimg.cc/d1QbzbSn/thumbnails3.webp",
+                "https://i.postimg.cc/NMN3Yd3t/thumbnails4.webp",
+                "https://i.postimg.cc/28LsRF2p/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "Dal martellare chiodi all'andare per strada,<br> questi carpenter pants vi coprono con comfort e stile.<br><br>• Gancio a martello<br>• Etichette tessute<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°",
+            "keyWords": "denim carpenter pants black pantalone pantaloni gancio martello etichette tessute vestibilità"
+        },
+        {
+            "id": "P19",
+            "bestSeller": false,
+            "name": "Desert Skull Sweatshorts Black",
+            "type": "pantalone",
+            "price": 59.99,
+            "salePrice": 49.00,
+            "picture": [
+                "https://i.postimg.cc/jqDx2fZc/thumbnails1.webp",
+                "https://i.postimg.cc/D09YyH59/thumbnails2.webp",
+                "https://i.postimg.cc/5NvfqVcF/thumbnails3.webp",
+                "https://i.postimg.cc/HWFpyLNg/thumbnails4.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "L'iconico teschio di Dolly Noire reimmaginato come cyber-tuareg.<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br><br>Vestibilità regular<br><br>85% cotone 15% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "desert skull sweatshorts black pantalone pantaloni primavera estate teschio"
+        },
+        {
+            "id": "P20",
+            "bestSeller": false,
+            "name": "Cotton Ripstop Laced Easy Cargo",
+            "type": "pantalone",
+            "price": 99.99,
+            "salePrice": 59.00,
+            "picture": [
+                "https://i.postimg.cc/6qZx0dPN/thumbnails1.webp",
+                "https://i.postimg.cc/QNKDh3dn/thumbnails2.webp",
+                "https://i.postimg.cc/vBkdfP3z/thumbnails3.webp",
+                "https://i.postimg.cc/WbRv4HDp/thumbnails4.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "DLYNR Cargo ripstop, sei più un tipo da fondo stretto, o largo?<br> Ora sei libero di decidere<br><br>• 100% cotone ripstop<br>• Etichetta tessuta<br>• Lacci alla caviglia<br>• Stampa serigrafica<br>• Vestibilità regular<br><br>Lavare a 30°",
+            "keyWords": "cotton ripstop laced easy cargo pantalone pantaloni cotone"
+        },
+        {
+            "id": "P21",
+            "bestSeller": true,
+            "name": "ENCH Tokyo Bowling Shirt",
+            "type": "camicia",
+            "price": 95.99,
+            "salePrice": 52.00,
+            "picture": [
+                "https://i.postimg.cc/q7NbypYP/thumbnails1.webp",
+                "https://i.postimg.cc/767KtmqX/thumbnails2.webp",
+                "https://i.postimg.cc/0NhtCL1b/thumbnails3.webp",
+                "https://i.postimg.cc/prHqwzTv/thumbnails4.webp",
+                "https://i.postimg.cc/XqkQ4qGC/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                false,
+                false,
+                false,
+                true
+            ],
+            "details": "DLYNR onora ancora una volta la cultura asiatica.<br> La serie BENCH continua con la Pagoda: una delle più famose architetture asiatiche.<br><br>Primavera / Estate<br><br>• Stampa serigrafica<br>• Etichetta Bench<br><br>Vestibilità regular<br><br>100% cotone Popeline<br><br>Lavaggio a 30°",
+            "keyWords": "ench tokyo bowling shirt camicia camicie stampa serigrafica"
+        },
+        {
+            "id": "P22",
+            "bestSeller": true,
+            "name": "Leshen, giacca imbottita",
+            "type": "giacca",
+            "price": 260.00,
+            "salePrice": 235.00,
+            "picture": [
+                "https://i.postimg.cc/ncLvC0N5/thumbnails1.webp",
+                "https://i.postimg.cc/ZnwpwdvV/thumbnails2.webp",
+                "https://i.postimg.cc/cCxf7mCv/thumbnails3.webp",
+                "https://i.postimg.cc/1RBGmL7w/thumbnails4.webp",
+                "https://i.postimg.cc/yYr090HN/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                false,
+                true,
+                true,
+                false
+            ],
+            "details": "Un omaggio al bosco, che rappresenta i colori<br> e gli elementi della natura. Rivestimento in TPU<br><br>autunno/inverno<br><br>• Stampa digitale allover<br>• Etichetta frontale con logo in gomma 3D<br>• Vestibilità regolare<br>• Tessuto esterno: 100% poliestere<br>• Imbottitura: 100% poliestere 400 gsm <br><br>Lavaggio a 30",
+            "keyWords": "leshen giacca giacche outdoor autunno inverno"
+        },
+        {
+            "id": "P23",
+            "bestSeller": false,
+            "name": "Dune Bowling Shirt Brown",
+            "type": "camicia",
+            "price": 97.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/W4SNF6BW/thumbnails1.webp",
+                "https://i.postimg.cc/s23fg0NG/thumbnails2.webp",
+                "https://i.postimg.cc/j2nt1VLm/thumbnails3.webp",
+                "https://i.postimg.cc/hjjS9QgS/thumbnails4.webp",
+                "https://i.postimg.cc/1Rbq3scg/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                false,
+                true,
+                true,
+                true
+            ],
+            "details": "I venti del deserto scolpiscono le dune di Shirìn,<br> le loro linee sono una testimonianza della resilienza della natura di fronte alla devastazione.<br><br>Primavera / Estate<br><br>• Tasche in rete di poliestere<br>• Anello a D<br>• Stampa digitale<br><br>Vestibilità regolare<br><br>100% cotone Popeline<br><br>Lavaggio a 30°",
+            "keyWords": "camicia camice bowling camicie dune brown autunno"
+        },
+        {
+            "id": "P24",
+            "bestSeller": false,
+            "name": "GOAT Hockey Hoodie Plus Yellow",
+            "type": "felpa",
+            "price": 185.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/0NS4h8fp/thumbnails1.jpgp",
+                "https://i.postimg.cc/BbSw82Gg/thumbnails2.jpg",
+                "https://i.postimg.cc/j5r1bGgB/thumbnails3.jpg",
+                "https://i.postimg.cc/0yF3t6pk/thumbnails4.jpg"
+            ],
+            "size": [
+                false,
+                true,
+                true,
+                false,
+                true
+            ],
+            "details": "Una versione rivisitata della classica felpa DLYNR GOAT.<br>Tagli dinamici, design rinnovato.<br><br>Autunno / Inverno<br><br>70% cotone 30% poliestere",
+            "keyWords": "felpa felpe goat inverno autunno yellow giallo hoodie"
+        },
+        {
+            "id": "P25",
+            "bestSeller": false,
+            "name": "Leshen Hoodie Brown",
+            "type": "felpa",
+            "price": 92.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/8cvBz57H/thumbnails1.jpg",
+                "https://i.postimg.cc/KzwDbL8j/thumbnails2.jpg"
+            ],
+            "size": [
+                false,
+                true,
+                true,
+                true,
+                false
+            ],
+            "details": "Mostrando la sua duplice natura di protettore e di maligno imbroglione,<br> il Leshen ricorda all'uomo le conseguenze del mancato rispetto o del maltrattamento<br> della natura e l'importanza di mantenere un rapporto armonioso con l'ambiente.<br><br>Autunno / Inverno<br><br>• Stampa serigrafica sul fronte e sul retro<br>• Jersey garzato<br><br>Vestibilità regolare<br><br>65% cotone 35% poliestere<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpe leshen inverno autunno marrone brown hoodie"
+        },
+        {
+            "id": "P26",
+            "bestSeller": true,
+            "name": "Medusa Hoodie White",
+            "type": "felpa",
+            "price": 105.00,
+            "salePrice": 82.00,
+            "picture": [
+                "https://i.postimg.cc/g2hFbqcX/thumbnails1.jpg",
+                "https://i.postimg.cc/QxwGznDZ/thumbnails2.jpg"
+            ],
+            "size": [
+                true,
+                false,
+                true,
+                true,
+                false
+            ],
+            "details": "Grafica best seller Mythos SS17,<br> l'iconica creatura mitologica torna in tutto il suo splendore.<br><br>• Stampa serigrafica<br>• Sfoderato<br><br>Vestibilità regular<br><br>100% cotone<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpe medusa inverno autunno bianco bianca white hoodie"
+        },
+        {
+            "id": "P27",
+            "bestSeller": true,
+            "name": "Celtic Ties Interlock Hoodie",
+            "type": "felpa",
+            "price": 105.00,
+            "salePrice": 82.00,
+            "picture": [
+                "https://i.postimg.cc/cJWjqp52/thumbnails1.jpg",
+                "https://i.postimg.cc/635mqdKh/thumbnails2.jpg",
+                "https://i.postimg.cc/1tCYqf51/thumbnails3.jpg",
+                "https://i.postimg.cc/4310XWDd/thumbnails4.jpg"
+            ],
+            "size": [
+                true,
+                false,
+                false,
+                true,
+                true
+            ],
+            "details": "Spesso caratterizzati da cicli infiniti senza inizio né fine,<br> questi motivi decorativi riflettono i temi dell'unità,<br> della continuità e delle profonde connessioni tra il mondo spirituale e quello fisico nella cultura celtica.<br><br>Autunno / Inverno<br><br>• Interlock jacquard<br>• Ricamo sul polso<br><br>Vestibilità regolare<br><br>56% Poliestere 40% Viscosa 4% Elastane<br><br>Lavaggio a 30°",
+            "keyWords": "felpa felpe celtic ties celtico inverno autunno interlock rosso rossa red bordeaux marrone brown hoodie"
+        },
+        {
+            "id": "P28",
+            "bestSeller": false,
+            "name": "Celtic Ties Interlock Sweatpants",
+            "type": "pantalone",
+            "price": 90.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.postimg.cc/13X08JVX/thumbnails1.jpg",
+                "https://i.postimg.cc/RZY7KKwR/thumbnails2.jpg",
+                "https://i.postimg.cc/SKzWrRrp/thumbnails3.jpg",
+                "https://i.postimg.cc/Pxs1FH3v/thumbnails4.jpg",
+                "https://i.postimg.cc/kG7Kqcdn/thumbnails5.jpg",
+                "https://i.postimg.cc/NM6m3nSJ/thumbnails6.jpg"
+            ],
+            "size": [
+                false,
+                true,
+                true,
+                true,
+                false
+            ],
+            "details": "Spesso caratterizzati da cicli infiniti senza inizio né fine,<br> questi motivi decorativi riflettono i temi dell'unità, della continuità<br> e delle profonde connessioni tra il mondo spirituale e quello fisico nella cultura celtica.<br><br>Autunno / Inverno<br><br>• Interlock jacquard<br>• Ricamo frontale<br><br>Vestibilità regolare<br><br>56% Poliestere 40% Viscosa 4% Elastan<br><br>Lavaggio a 30°",
+            "keyWords": "pantaloni pantalone celtic ties celtico inverno autunno interlock rosso rossa red bordeaux marrone brown sweatpants"
+        },
+        {
+            "id": "P29",
+            "bestSeller": true,
+            "name": "Ryu Dragon Sweatpants Black",
+            "type": "pantalone",
+            "price": 134.00,
+            "salePrice": 67.90,
+            "picture": [
+                "https://i.postimg.cc/RVvnSxrk/thumbnails1.webp",
+                "https://i.postimg.cc/qqxhsjKD/thumbnails2.webp",
+                "https://i.postimg.cc/0QmJQ8ys/thumbnails3.webp",
+                "https://i.postimg.cc/BZTKfQz5/thumbnails4.webp",
+                "https://i.postimg.cc/Fz4kk2YJ/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                false
+            ],
+            "details": "Best Seller DLYNR FW22, il Drago Ryu fa ritorno.<br><br>Autunno / Inverno<br><br>• Stampa serigrafica su fronte, retro e gambe<br><br>Il prodotto veste regular<br><br>65% Cotone 35% Poliestere<br><br>Lavaggio 30°",
+            "keyWords": "pantaloni pantalone ryu dragon sweatpants black inverno autunno rosso red bordeaux marrone brown sweatpants"
+        },
+        {
+            "id": "P30",
+            "bestSeller": false,
+            "name": "Hand Scripted Tee Forest Night",
+            "type": "t-shirt",
+            "price": 45.99,
+            "salePrice": 27.99,
+            "picture": [
+                "https://i.ibb.co/xHYThn2/thumbnails2.webp",
+                "https://i.ibb.co/QkRPkXD/thumbnails1.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "Una rappresentazione grafica fatta<br>a mano: per chi ama essere audace.<br><br>• Serigrafia anteriore e posteriore<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°",
+            "keyWords": "t-shirt tee forest night grafica fatta a mano serigrafia vestibilità regolare 100% cotone maglietta moda uomo moda donna autunno inverno audace abbigliamento casual streetwear abbigliamento"
+        }
+    ]
 }
