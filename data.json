@@ -726,7 +726,54 @@
                 true
             ],
             "details": "Una rappresentazione grafica fatta<br>a mano: per chi ama essere audace.<br><br>• Serigrafia anteriore e posteriore<br><br>Vestibilità regolare<br><br>100% cotone<br><br>Lavaggio a 30°",
-            "keyWords": "t-shirt tee forest night grafica fatta a mano serigrafia vestibilità regolare 100% cotone maglietta moda uomo moda donna autunno inverno audace abbigliamento casual streetwear abbigliamento"
+            "keyWords": "t-shirt maglia maglie tee forest night grafica fatta a mano serigrafia vestibilità regolare 100% cotone maglietta moda uomo moda donna autunno inverno audace abbigliamento casual streetwear abbigliamento"
+        },
+        {
+            "id": "P31",
+            "bestSeller": false,
+            "name": "Digital Camo Shirt Black",
+            "type": "camicia",
+            "price": 140.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.ibb.co/X3MVZSd/thumbnails1.webp",
+                "https://i.ibb.co/qsYznK4/thumbnails2.webp",
+                "https://i.ibb.co/vs4xSDy/thumbnails3.webp",
+                "https://i.ibb.co/zmNPz3Q/thumbnails4.webp"
+            ],
+            "size": [
+                true,
+                true,
+                false,
+                true,
+                true
+            ],
+            "details": "Un pattern camo digital unico, una scelta<br>perfetta per rimanere cool e caldo allo stesso tempo<br><br>Autunno / Inverno<br><br>• 78% poliestere 22% viscosa<br>• Disegno a incastro jacquard<br>• Tasche frontali<br><br>Vestibilità regolare<br><br>78% poliestere, 22% viscosa<br><br>Lavare a 30°",
+            "keyWords": "camicia camicie camouflage pattern digitale autunno inverno poliestere viscosa tasche frontali jacquard vestibilità regolare moda uomo streetwear camo"
+        },
+        {
+            "id": "P32",
+            "bestSeller": false,
+            "name": "GOAT Chemical Easyshorts",
+            "type": "camicia",
+            "price": 85.00,
+            "salePrice": 0,
+            "picture": [
+                "https://i.ibb.co/Wt5C3Fp/thumbnails1.webp",
+                "https://i.ibb.co/rZ9SqQq/thumbnails2.webp",
+                "https://i.ibb.co/n6dv7BK/thumbnails3.webp",
+                "https://i.ibb.co/c6PVwhc/thumbnails4.webp",
+                "https://i.ibb.co/55Q8GJM/thumbnails5.webp"
+            ],
+            "size": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "details": "The camouflage that allows to blend in the desertic landscape of rocks and sand.<br><br>Spring / Summer<br><br>• Allover digital print<br>• Embroidery<br>• GOAT label<br><br>Regular fit<br><br>100% Polyester Mesh<br><br>30° Wash",
+            "keyWords": "camouflage desertico stampa digitale estate primavera ricamo etichetta GOAT vestibilità regolare 100% poliestere mesh moda uomo streetwear pantaloncini"
         }
     ]
 }
