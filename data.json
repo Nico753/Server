@@ -16,6 +16,7 @@
       "cvv":null,
       "expirationDate":null,
       "profileImageSrc":"https://i.ibb.co/VmXdxSj/admin-Avatar.png",
+      "acceptedTerms":false,
       "shoppingCart": [
       ],
       "purchaseHistory":[
